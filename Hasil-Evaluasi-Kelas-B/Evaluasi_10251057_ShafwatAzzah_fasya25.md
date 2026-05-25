@@ -176,7 +176,37 @@
 **NILAI MODUL 10: 0**
 
 ---
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 85.22**
+
+## Hasil Evaluasi Modul 11: Graph
+
+### Semua Tugas
+- **Pengecekan:** Folder `minggu 11/` hanya berisi 1 file placeholder kosong (`minggu 11/Shafwat Azzah. H. L`, 1 baris). Tidak ada implementasi Tugas Terstruktur 11.1/11.2/11.3.
+- **Hasil:** **PLACEHOLDER KOSONG** ❌ (0%)
+
+**NILAI MODUL 11: 0**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+> **Catatan teknis:** Clone gagal di Windows karena nama file dengan titik di akhir; semua test dijalankan via `git show "HEAD:minggu 12/tugas 12.N_10251057_Shafwat Azzah H. L.py" | python`.
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** Semua fungsi lulus 5 test case.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan Kode:** Linear probing + tombstone, resize & rehash bekerja.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Bidirectional dictionary dengan multiple translations dan prefix search benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 12: 100**
+
+---
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 78.82**
 
 | Modul | Nilai |
 |-------|-------|
@@ -189,6 +219,10 @@
 | Modul 7 | 100 |
 | Modul 9 | 67 |
 | Modul 10 | 0 |
-| **Rata-rata** | **85.22** |
+| Modul 11 | 0 |
+| Modul 12 | 100 |
+| **Rata-rata** | **78.82** |
+
+*Catatan: Modul 11 hanya berisi placeholder kosong. M12 dievaluasi via `git show`.*
 
 *Penilaian dievaluasi secara statis-manual berdasarkan kode program dan divalidasi melalui eksekusi unit test satu per satu.*

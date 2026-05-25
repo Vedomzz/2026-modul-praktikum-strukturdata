@@ -129,7 +129,27 @@
 **NILAI MODUL 10: 0**
 
 ---
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 44.44**
+
+## Hasil Evaluasi Modul 11: Graph
+
+### Semua Tugas
+- **Pengecekan:** Folder `Minggu 11/` hanya berisi 1 file placeholder kosong (`Minggu 11/11`, 1 baris, blob shared dengan file kosong git standar) — tidak ada implementasi Tugas Terstruktur 11.1/11.2/11.3.
+- **Hasil:** **PLACEHOLDER KOSONG** ❌ (0%)
+
+**NILAI MODUL 11: 0**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ada folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 36.36**
 
 | Modul | Nilai |
 |-------|-------|
@@ -142,6 +162,10 @@
 | Modul 7 | 100 |
 | Modul 9 | 0 |
 | Modul 10 | 0 |
-| **Rata-rata** | **44.44** |
+| Modul 11 | 0 |
+| Modul 12 | 0 |
+| **Rata-rata** | **36.36** |
+
+*Catatan: Modul 11 hanya berisi placeholder kosong. Modul 12 tidak dikumpulkan.*
 
 *Penilaian dievaluasi secara statis-manual berdasarkan kode program dan divalidasi melalui eksekusi unit test satu per satu.*

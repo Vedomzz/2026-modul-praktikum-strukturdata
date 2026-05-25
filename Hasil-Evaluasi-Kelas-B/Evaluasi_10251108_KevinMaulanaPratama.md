@@ -167,7 +167,37 @@
 **NILAI MODUL 10: 0**
 
 ---
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 68.56**
+
+## Hasil Evaluasi Modul 11: Graph
+
+> **Catatan teknis:** Clone awal `gh repo clone` gagal karena nama folder bermasalah pada Windows. File Modul 11 dibaca via `git show "HEAD:Minggu 11/Praktikum/Tugas/Code11.X_Tugas11_..py"`.
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Method baru lengkap, 7 test case lulus.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route, shortest route (270m A→E), all_reachable berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan adjacency list vs matrix lengkap.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Folder `Minggu 12/Tugas/` hanya berisi file placeholder `sadf` (kosong, tanpa konten). Folder `Minggu 12/` juga memiliki file `sawe` (placeholder). Tidak ada implementasi Tugas Terstruktur 12.1/12.2/12.3.
+- **Hasil:** **PLACEHOLDER KOSONG** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 65.18**
 
 | Modul | Nilai |
 |-------|-------|
@@ -180,6 +210,10 @@
 | Modul 7 | 0 |
 | Modul 9 | 67 |
 | Modul 10 | 0 |
-| **Rata-rata** | **68.56** |
+| Modul 11 | 100 |
+| Modul 12 | 0 |
+| **Rata-rata** | **65.18** |
+
+*Catatan: M11 dievaluasi via `git show` karena clone gagal di Windows. M12 hanya berisi file placeholder kosong.*
 
 *Penilaian dievaluasi secara statis-manual berdasarkan kode program dan divalidasi melalui eksekusi unit test satu per satu.*

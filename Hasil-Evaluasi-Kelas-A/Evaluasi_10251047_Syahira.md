@@ -175,7 +175,43 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 92.25**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Method baru lengkap, 7 test case lulus.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route, shortest route (270m A→E), all_reachable berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan adjacency list vs matrix berjalan dengan tabel memori.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** Semua fungsi lulus 5 test case.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan:** File `Tugas2_10251047_Nurul Syahira.py` berisi **duplikat kode Tugas 12.1 (Binary Search Lanjutan)**, bukan implementasi Hash Table Open Addressing. Header file: `TUGAS TERSTRUKTUR 12.1: Binary Search Lanjutan`.
+- **Hasil:** **KONTEN SALAH** ❌ (0%) — file duplikat dari Tugas 1
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Dictionary dua arah dengan multiple translations dan prefix search benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 12: 67** *((100+0+100)/3 ≈ 67)*
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 91.36**
 
 | Modul | Nilai |
 |-------|-------|
@@ -188,6 +224,8 @@
 | Modul 7 | 75 |
 | Modul 9 | 83 |
 | Modul 10 | 100 |
-| **Rata-rata** | **93.11** |
+| Modul 11 | 100 |
+| Modul 12 | 67 |
+| **Rata-rata** | **91.36** |
 
-*Catatan: M7 T2 tidak menggunakan format test terstruktur. M9 T3 hanya berisi analisis teks, tanpa kode pengukuran.*
+*Catatan: M7 T2 tidak menggunakan format test terstruktur. M9 T3 hanya berisi analisis teks, tanpa kode pengukuran. M12 T2 file berisi duplikat Tugas 12.1.*

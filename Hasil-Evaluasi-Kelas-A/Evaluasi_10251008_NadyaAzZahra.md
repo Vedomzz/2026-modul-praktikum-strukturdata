@@ -185,7 +185,27 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 88.5**
+## Hasil Evaluasi Modul 11: Graph
+
+### Semua Tugas
+- **Pengecekan:** Folder `Modul-11/` hanya berisi 3 file Praktikum (`Praktikum11.1`, `Praktikum11.2`, `Praktikum11.3`) — tidak ada file Tugas Terstruktur (Tugas1, Tugas2, Tugas3).
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 11: 0**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 73.45**
 
 | Modul | Nilai |
 |-------|-------|
@@ -198,4 +218,8 @@
 | Modul 7 | 100 |
 | Modul 9 | 100 |
 | Modul 10 | 100 |
-| **Rata-rata** | **89.78** |
+| Modul 11 | 0 |
+| Modul 12 | 0 |
+| **Rata-rata** | **73.45** |
+
+*Catatan: Modul 11 hanya mengumpulkan Praktikum tanpa Tugas Terstruktur. Modul 12 tidak dikumpulkan sama sekali.*

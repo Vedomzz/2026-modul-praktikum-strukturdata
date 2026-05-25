@@ -147,7 +147,45 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 72.88**
+## Hasil Evaluasi Modul 11: Graph
+
+> **Catatan teknis:** Folder `Minggu 1 /` di repo mengandung trailing space (invalid pada Windows) sehingga `git checkout` gagal. File Modul 11 dibaca via `git show HEAD:"Minggu 11/Tugas {N}_*.py"`.
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Method baru lengkap, 7 test case lulus.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route, shortest route (270m A→E), all_reachable berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan adjacency list vs matrix lengkap.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** Semua fungsi lulus 5 test case.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan Kode:** Linear probing + tombstone, resize & rehash bekerja.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Bidirectional dictionary dengan multiple translations dan prefix search benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 12: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 80.27**
 
 | Modul | Nilai | Keterangan |
 |-------|-------|------------|
@@ -160,4 +198,6 @@
 | Modul 7 | 100 | |
 | Modul 9 | 67 | |
 | Modul 10 | 100 | |
-| **Rata-rata** | **75.89** | |
+| Modul 11 | 100 | |
+| Modul 12 | 100 | |
+| **Rata-rata** | **80.27** | |

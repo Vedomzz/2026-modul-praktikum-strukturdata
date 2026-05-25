@@ -170,7 +170,43 @@
 **NILAI MODUL 10: 85** *(T1:85 + T2:85 + T3:85) / 3 = 85*
 
 ---
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 93.00**
+
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Method baru lengkap, 7 test case lulus (termasuk Test 8 directed cycle tambahan). File `Tugas1` punya ekstensi `..py` (double dot tapi tetap valid `.py`).
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route dan shortest route benar. File `Tugas2_..._Nugrahantiningdyah` **tanpa ekstensi `.py`** → penalti -15.
+- **Hasil Testing Terminal:** **PASSED** ✅ (85%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan adjacency list vs matrix lengkap. File `Tugas3_..._Nugrahantiningdyah` **tanpa ekstensi `.py`** → penalti -15.
+- **Hasil Testing Terminal:** **PASSED** ✅ (85%)
+
+**NILAI MODUL 11: 90** *((100+85+85)/3 ≈ 90)*
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** Semua fungsi lulus 5 test case. File **tanpa ekstensi `.py`** → penalti -15.
+- **Hasil Testing Terminal:** **PASSED** ✅ (85%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan Kode:** Linear probing + tombstone, resize & rehash bekerja. File **tanpa ekstensi `.py`** → penalti -15.
+- **Hasil Testing Terminal:** **PASSED** ✅ (85%)
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Bidirectional dictionary dengan multiple translations dan prefix search benar. File **tanpa ekstensi `.py`** → penalti -15.
+- **Hasil Testing Terminal:** **PASSED** ✅ (85%)
+
+**NILAI MODUL 12: 85** *(T1:85 + T2:85 + T3:85) / 3 = 85*
+
+---
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 92.00**
 
 | Modul | Nilai |
 |-------|-------|
@@ -183,6 +219,10 @@
 | Modul 7 | 100 |
 | Modul 9 | 85 |
 | Modul 10 | 85 |
-| **Rata-rata** | **93.00** |
+| Modul 11 | 90 |
+| Modul 12 | 85 |
+| **Rata-rata** | **92.00** |
+
+*Catatan: Konsisten dengan M9 & M10 — banyak file Tugas dikumpulkan tanpa ekstensi `.py` (-15 per tugas).*
 
 *Penilaian dievaluasi secara statis-manual berdasarkan kode program dan divalidasi melalui eksekusi unit test satu per satu.*

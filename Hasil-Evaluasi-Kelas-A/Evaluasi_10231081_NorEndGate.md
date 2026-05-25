@@ -204,7 +204,43 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 79.67**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Implementasi method baru `remove_vertex()`, `is_connected()`, `has_cycle()`, `count_paths()`, `to_adjacency_matrix()` lengkap dan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** Class `CampusMap` dengan BFS route, shortest route (Dijkstra-like), dan all_reachable terimplementasi dengan benar. Shortest A→E = 270m sesuai ekspektasi.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan BFS pada adjacency list vs matrix berhasil dijalankan untuk 5 konfigurasi (sparse & dense). Bagian A (tabel analisis) sudah diisi lengkap dengan jawaban benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** `lower_bound`, `upper_bound`, `count_occurrences`, `find_closest`, `search_rotated` semuanya benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan Kode:** Linear probing dengan tombstone DELETED bekerja dengan benar. Resize & rehash teruji.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Bidirectional dictionary dengan multiple translations dan prefix search berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 12: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 83.36**
 
 | Modul | Nilai |
 |-------|-------|
@@ -217,6 +253,8 @@
 | Modul 7 | 50 |
 | Modul 9 | 100 |
 | Modul 10 | 0 |
-| **Rata-rata** | **79.67** |
+| Modul 11 | 100 |
+| Modul 12 | 100 |
+| **Rata-rata** | **83.36** |
 
 *Catatan: Modul 5 T2 tidak diimplementasikan. Modul 7 T1 dikumpulkan sebagai .py bukan PDF. Modul 10 file kosong (0 bytes).*

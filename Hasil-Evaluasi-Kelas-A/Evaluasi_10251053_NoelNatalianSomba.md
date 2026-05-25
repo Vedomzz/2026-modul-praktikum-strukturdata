@@ -172,7 +172,27 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 89.63**
+## Hasil Evaluasi Modul 11: Graph
+
+### Semua Tugas
+- **Pengecekan:** Tidak ditemukan folder atau file Modul 11 di repositori `strukturdata-a-N3CH0`. Commit terakhir di Modul 10.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 11: 0**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 74.27**
 
 | Modul | Nilai |
 |-------|-------|
@@ -185,6 +205,8 @@
 | Modul 7 | 50 |
 | Modul 9 | 67 |
 | Modul 10 | 100 |
-| **Rata-rata** | **90.78** |
+| Modul 11 | 0 |
+| Modul 12 | 0 |
+| **Rata-rata** | **74.27** |
 
-*Catatan: M6 dikumpulkan terlambat (setelah evaluasi pertama), sudah dievaluasi. M7 T1 tidak dikumpulkan (file tugas berisi Library bukan PDF teori).*
+*Catatan: M6 dikumpulkan terlambat (setelah evaluasi pertama), sudah dievaluasi. M7 T1 tidak dikumpulkan (file tugas berisi Library bukan PDF teori). M11 & M12 tidak dikumpulkan sama sekali.*

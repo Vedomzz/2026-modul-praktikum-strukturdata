@@ -178,7 +178,35 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 92.63**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Method baru lengkap, 7 test case lulus.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route dan shortest route (270m A→E) berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan:** File `tugas3_10251026_SALSABILA YULIANTI SALIM.py` ada di repo namun **kosong (0 baris)** — tidak ada implementasi sama sekali.
+- **Hasil Testing Terminal:** **TIDAK ADA KONTEN** ❌ (0%)
+
+**NILAI MODUL 11: 67** *((100+100+0)/3 ≈ 67)*
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 82.55**
 
 | Modul | Nilai |
 |-------|-------|
@@ -191,4 +219,8 @@
 | Modul 7 | 100 |
 | Modul 9 | 67 |
 | Modul 10 | 100 |
-| **Rata-rata** | **93.44** |
+| Modul 11 | 67 |
+| Modul 12 | 0 |
+| **Rata-rata** | **82.55** |
+
+*Catatan: Modul 11 T3 file kosong (0 baris). Modul 12 tidak dikumpulkan.*

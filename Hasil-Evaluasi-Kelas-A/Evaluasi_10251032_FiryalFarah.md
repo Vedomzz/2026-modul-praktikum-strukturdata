@@ -176,7 +176,35 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 91.5**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Method baru lengkap, 7 test case lulus.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route, shortest route (270m A→E), all_reachable berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan:** File `Tugas 11.3` berisi kode **Praktikum 11.3 (BFS/DFS pada Adjacency Matrix)**, bukan Tugas Terstruktur 11.3 (Analisis Kompleksitas Graph). Header file: `PRAKTIKUM 11.3: BFS/DFS pada Adjacency Matrix`.
+- **Hasil:** **KONTEN SALAH** ❌ (0%) — praktikum dikumpulkan sebagai tugas
+
+**NILAI MODUL 11: 67** *((100+100+0)/3 ≈ 67)*
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 81.73**
 
 | Modul | Nilai |
 |-------|-------|
@@ -189,6 +217,8 @@
 | Modul 7 | 75 |
 | Modul 9 | 67 |
 | Modul 10 | 100 |
-| **Rata-rata** | **92.44** |
+| Modul 11 | 67 |
+| Modul 12 | 0 |
+| **Rata-rata** | **81.73** |
 
-*Catatan: M7 T2 hanya 4/8 test case diimplementasikan.*
+*Catatan: M7 T2 hanya 4/8 test case diimplementasikan. M11 T3 berisi kode Praktikum 11.3 (file salah). Modul 12 tidak dikumpulkan.*

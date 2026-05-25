@@ -182,7 +182,43 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 87.67**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Method baru (`remove_vertex`, `is_connected`, `has_cycle`, `count_paths`, `to_adjacency_matrix`) lengkap. File **menggunakan ekstensi `.py` dengan benar** (mahasiswa sudah memperbaiki format yang sebelumnya salah).
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route, shortest route (270m A→E), dan all_reachable bekerja benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Tabel perbandingan adjacency list vs matrix berjalan untuk 5 konfigurasi.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** Semua fungsi (`lower_bound`, `upper_bound`, `count_occurrences`, `find_closest`, `search_rotated`) benar. File **menggunakan ekstensi `.py` dengan benar**.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan Kode:** Linear probing + tombstone DELETED bekerja, resize & rehash teruji.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Dictionary dua arah dengan multiple translations berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 12: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 89.91**
 
 | Modul | Nilai |
 |-------|-------|
@@ -195,6 +231,8 @@
 | Modul 7 | 75 |
 | Modul 9 | 67 |
 | Modul 10 | 97 |
-| **Rata-rata** | **87.67** |
+| Modul 11 | 100 |
+| Modul 12 | 100 |
+| **Rata-rata** | **89.91** |
 
-*Catatan: M5/M6 file tanpa ekstensi `.py` (-15 per tugas). M7 T2 hanya 4/8 test case diimplementasikan. M9 T3 SyntaxError karakter unicode. M10 T3 hanya hingga n=10000.*
+*Catatan: M5/M6 file tanpa ekstensi `.py` (-15 per tugas). M7 T2 hanya 4/8 test case diimplementasikan. M9 T3 SyntaxError karakter unicode. M10 T3 hanya hingga n=10000. **M11 & M12 sudah menggunakan ekstensi `.py` dengan benar** — mahasiswa memperbaiki format yang sebelumnya bermasalah.*

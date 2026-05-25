@@ -177,7 +177,43 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 91.75**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan:** File `Tugas1_10251050.py` berisi kode **Praktikum 11.1: Representasi Graph**, bukan Tugas Terstruktur 11.1 (Pengembangan Graph Class). Header file: `PRAKTIKUM 11.1: Representasi Graph`.
+- **Hasil:** **KONTEN SALAH** ❌ (0%) — praktikum dikumpulkan sebagai tugas
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan:** File `Tugas2_10251050.py` berisi kode **Praktikum 11.2: Implementasi BFS dan DFS**. Header file: `PRAKTIKUM 11.2: Implementasi BFS dan DFS`.
+- **Hasil:** **KONTEN SALAH** ❌ (0%) — praktikum dikumpulkan sebagai tugas
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan:** File `Tugas3_10251050.py` berisi kode **Praktikum 11.3: BFS/DFS pada Adjacency Matrix**. Header file: `PRAKTIKUM 11.3: BFS/DFS pada Adjacency Matrix`.
+- **Hasil:** **KONTEN SALAH** ❌ (0%) — praktikum dikumpulkan sebagai tugas
+
+**NILAI MODUL 11: 0** *(semua T1/T2/T3 berisi kode Praktikum bukan Tugas Terstruktur)*
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** Semua fungsi (`lower_bound`, `upper_bound`, `count_occurrences`, `find_closest`, `search_rotated`) benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan Kode:** Linear probing + tombstone, resize & rehash berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Dictionary dua arah dengan multiple translations berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 12: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 84.91**
 
 | Modul | Nilai |
 |-------|-------|
@@ -190,4 +226,8 @@
 | Modul 7 | 100 |
 | Modul 9 | 67 |
 | Modul 10 | 100 |
-| **Rata-rata** | **92.67** |
+| Modul 11 | 0 |
+| Modul 12 | 100 |
+| **Rata-rata** | **84.91** |
+
+*Catatan: Modul 11 T1/T2/T3 semua file berisi kode Praktikum 11.1/11.2/11.3 (file salah) — M11=0.*

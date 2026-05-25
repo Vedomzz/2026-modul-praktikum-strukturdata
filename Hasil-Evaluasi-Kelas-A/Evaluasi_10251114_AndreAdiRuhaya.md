@@ -176,7 +176,43 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 61.13**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan:** Filename `Tugas1_10251114_Andre_Adi_Ruhaya,py` menggunakan koma `,` bukan titik `.` sebelum `py` — file tidak memiliki ekstensi `.py` yang valid. Saat dijalankan via interpreter Python, semua 7 test case lulus.
+- **Hasil Testing Terminal:** **PASSED** ✅ (85%) — penalti -15 karena tanpa ekstensi `.py`
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route, shortest route (270m A→E), all_reachable berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan adjacency list vs matrix lengkap.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 95** *((85+100+100)/3 ≈ 95)*
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** Semua fungsi lulus 5 test case.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan Kode:** Linear probing + tombstone, resize & rehash bekerja.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Bidirectional dictionary dengan multiple translations dan prefix search benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 12: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 71.27**
 
 | Modul | Nilai | Keterangan |
 |-------|-------|------------|
@@ -189,4 +225,6 @@
 | Modul 7 | 0 | T1 tidak ada PDF, T2 tidak ada kode test |
 | Modul 9 | 0 | T1/T2 class-only (no test), T3 RecursionError |
 | Modul 10 | 100 | |
-| **Rata-rata** | **65.44** | |
+| Modul 11 | 95 | T1 filename `,py` bukan `.py` (-15) |
+| Modul 12 | 100 | |
+| **Rata-rata** | **71.27** | |

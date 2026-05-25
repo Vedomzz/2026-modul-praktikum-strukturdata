@@ -168,7 +168,27 @@
 **NILAI MODUL 10: 0**
 
 ---
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 79.67**
+
+## Hasil Evaluasi Modul 11: Graph
+
+### Semua Tugas
+- **Pengecekan:** Tidak ada folder atau file Modul 11 di repositori (commit terakhir hanya sampai Modul 9).
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 11: 0**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ada folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 65.18**
 
 | Modul | Nilai |
 |-------|-------|
@@ -181,6 +201,10 @@
 | Modul 7 | 100 |
 | Modul 9 | 67 |
 | Modul 10 | 0 |
-| **Rata-rata** | **79.67** |
+| Modul 11 | 0 |
+| Modul 12 | 0 |
+| **Rata-rata** | **65.18** |
+
+*Catatan: Modul 10, 11, 12 tidak dikumpulkan.*
 
 *Penilaian dievaluasi secara statis-manual berdasarkan kode program dan divalidasi melalui eksekusi unit test satu per satu.*

@@ -112,7 +112,35 @@
 **NILAI MODUL 10: 0**
 
 ---
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 11.11**
+
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Method baru lengkap, 7 test case lulus. Peningkatan signifikan dari mahasiswa yang sebelumnya hanya M1=100 dan M2–M10 semua 0.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route, shortest route (270m A→E), all_reachable berjalan benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan adjacency list vs matrix lengkap.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ada folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 18.18**
 
 | Modul | Nilai |
 |-------|-------|
@@ -125,6 +153,10 @@
 | Modul 7 | 0 |
 | Modul 9 | 0 |
 | Modul 10 | 0 |
-| **Rata-rata** | **11.11** |
+| Modul 11 | 100 |
+| Modul 12 | 0 |
+| **Rata-rata** | **18.18** |
+
+*Catatan: Modul 11 dikumpulkan lengkap dan semua test PASSED — peningkatan signifikan setelah lama tidak mengumpulkan. Modul 12 belum dikumpulkan.*
 
 *Penilaian dievaluasi secara statis-manual berdasarkan kode program dan divalidasi melalui eksekusi unit test satu per satu.*

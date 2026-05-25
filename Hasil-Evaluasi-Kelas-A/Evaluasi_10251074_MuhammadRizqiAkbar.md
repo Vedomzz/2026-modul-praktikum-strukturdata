@@ -175,7 +175,27 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 95.88**
+## Hasil Evaluasi Modul 11: Graph
+
+### Semua Tugas
+- **Pengecekan:** Tidak ditemukan folder atau file Modul 11 di repositori. Commit terakhir di Modul 10 (`tugas3_*`) pada 9 Mei 2026.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 11: 0**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 78.82**
 
 | Modul | Nilai |
 |-------|-------|
@@ -188,4 +208,8 @@
 | Modul 7 | 100 |
 | Modul 9 | 100 |
 | Modul 10 | 100 |
-| **Rata-rata** | **96.33** |
+| Modul 11 | 0 |
+| Modul 12 | 0 |
+| **Rata-rata** | **78.82** |
+
+*Catatan: Modul 11 & Modul 12 tidak dikumpulkan sama sekali (commit terakhir di Modul 10).*

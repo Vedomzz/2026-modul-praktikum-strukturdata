@@ -192,7 +192,43 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 91.75**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** Implementasi `remove_vertex()`, `is_connected()`, `has_cycle()`, `count_paths()`, `to_adjacency_matrix()` lengkap. Semua 7 test case lulus, termasuk deteksi cycle, disconnected graph, dan jumlah path A→E = 4.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** `CampusMap` dengan BFS route, shortest route (Dijkstra-like), dan all_reachable terimplementasi dengan benar. Shortest A→E = 270m, reachable A (<=200m) = B, C, D.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan BFS list vs matrix berjalan, analisis memori tertulis lengkap.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### 1. Tugas 1: Binary Search Lanjutan
+- **Pengecekan Kode:** Semua fungsi (`lower_bound`, `upper_bound`, `count_occurrences`, `find_closest`, `search_rotated`) benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Hash Table - Open Addressing
+- **Pengecekan Kode:** Linear probing + tombstone DELETED, resize & rehash bekerja sempurna pada 10 elemen dengan initial size 5.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Sistem Kamus Digital
+- **Pengecekan Kode:** Dictionary dua arah dengan multiple translations (`bisa` → `can, poison`) dan prefix search semua benar.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 12: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 94.00**
 
 | Modul | Nilai |
 |-------|-------|
@@ -205,6 +241,8 @@
 | Modul 7 | 100 |
 | Modul 9 | 67 |
 | Modul 10 | 100 |
-| **Rata-rata** | **92.67** |
+| Modul 11 | 100 |
+| Modul 12 | 100 |
+| **Rata-rata** | **94.00** |
 
 *Catatan: Modul 5 T2 tidak diimplementasikan.*

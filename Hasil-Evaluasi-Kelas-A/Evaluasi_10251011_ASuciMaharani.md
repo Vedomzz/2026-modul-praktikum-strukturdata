@@ -178,7 +178,35 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 91.11**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** `remove_vertex()`, `is_connected()`, `has_cycle()`, `count_paths()`, `to_adjacency_matrix()` lengkap dan semua 7 test case lulus.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** `CampusMap` dengan BFS route, shortest route (Dijkstra-like), dan all_reachable berjalan benar. Shortest A→E = 270m.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Analisis performa adjacency list vs matrix berjalan untuk 5 konfigurasi (sparse & dense).
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Folder `Modul-12/` hanya berisi 3 file Praktikum (Praktikum1, Praktikum2, Praktikum3) — tidak ada file Tugas Terstruktur.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 83.64**
 
 | Modul | Nilai |
 |-------|-------|
@@ -191,4 +219,8 @@
 | Modul 7 | 100 |
 | Modul 9 | 67 |
 | Modul 10 | 53 |
-| **Rata-rata** | **91.11** |
+| Modul 11 | 100 |
+| Modul 12 | 0 |
+| **Rata-rata** | **83.64** |
+
+*Catatan: Modul 12 hanya mengumpulkan Praktikum tanpa Tugas Terstruktur — M12=0.*

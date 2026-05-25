@@ -172,7 +172,35 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9, 10): 69.67**
+## Hasil Evaluasi Modul 11: Graph
+
+### 1. Tugas 1: Pengembangan Graph Class
+- **Pengecekan Kode:** `remove_vertex()`, `is_connected()`, `has_cycle()`, `count_paths()`, `to_adjacency_matrix()` lengkap, semua 7 test case lulus.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 2. Tugas 2: Sistem Navigasi Kampus
+- **Pengecekan Kode:** BFS route, shortest route, dan all_reachable berfungsi benar (shortest A→E = 270m).
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+### 3. Tugas 3: Analisis Kompleksitas Graph
+- **Pengecekan Kode:** Perbandingan adjacency list vs matrix berjalan untuk 5 konfigurasi.
+- **Hasil Testing Terminal:** **PASSED** ✅ (100%)
+
+**NILAI MODUL 11: 100**
+
+---
+
+## Hasil Evaluasi Modul 12: Algoritma Searching
+
+### Semua Tugas
+- **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
+- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+
+**NILAI MODUL 12: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9, 10, 11, 12): 66.09**
 
 | Modul | Nilai |
 |-------|-------|
@@ -185,6 +213,8 @@
 | Modul 7 | 0 |
 | Modul 9 | 67 |
 | Modul 10 | 0 |
-| **Rata-rata** | **69.67** |
+| Modul 11 | 100 |
+| Modul 12 | 0 |
+| **Rata-rata** | **66.09** |
 
-*Catatan: Modul 3 T2 terdapat bug pengurutan polynomial. Modul 7 tidak dikumpulkan.*
+*Catatan: Modul 3 T2 terdapat bug pengurutan polynomial. Modul 7 tidak dikumpulkan. Modul 10 & Modul 12 tidak dikumpulkan.*
