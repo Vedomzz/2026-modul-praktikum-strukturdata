@@ -314,6 +314,57 @@ ATTENDANCE_OVERRIDE = {
 }
 
 
+# Kuis override (untuk mhs yang data Kuis-nya kosong/salah di Excel)
+KUIS_OVERRIDE = {
+    'A': {},
+    'B': {
+        10251115: 60,  # Jonatan Bagus Kristiawan (Excel kosong, diinput susulan)
+    },
+}
+
+
+# UTS Final setelah remedial. Formula:
+# UTS_final = MAX(UTS_asli, MIN(UTS_remedial, 65))
+# Hanya berisi mhs yang skornya naik karena remedial. Yang lain pakai UTS asli dari Excel.
+UTS_FINAL_OVERRIDE = {
+    'A': {
+        10251002: 65,  # Dina (asli 30, remedial cap 65)
+        10251005: 65,  # Rifat A (asli 46)
+        10251017: 65,  # Devi (asli 45)
+        10251023: 65,  # Arya (asli 35)
+        10251029: 65,  # Jevon (asli 56)
+        10251032: 65,  # Firyal (asli 43)
+        10251044: 65,  # Asrul (asli 56)
+        10251047: 65,  # Syahira (asli 65) - sama
+        10251053: 65,  # Noel (asli 50)
+        10251056: 65,  # Syahrina (asli 47)
+        10251059: 65,  # Taufiiqul (asli 43)
+        10251068: 65,  # Fajri (asli 37)
+        10251074: 65,  # Akbar (asli 54)
+        10251092: 65,  # Razi (asli 35)
+        10251104: 65,  # Chelsea (asli 45)
+        10251110: 65,  # Farel (asli 37)
+        # Yang remedial tapi UTS asli > remedial: Suci (62 vs 45), Ayudya (53 vs 50), Zennin (55 vs 0)
+        # → tidak di-override, tetap pakai UTS asli
+    },
+    'B': {
+        10251012: 65,  # Fransiskus (asli 51)
+        10251027: 65,  # Kurnia (asli 55)
+        10251039: 65,  # Khoiry (asli 52)
+        10251048: 65,  # Dewi (asli 61)
+        10251054: 65,  # Rizky (asli 49)
+        10251066: 65,  # Noel R (asli 52)
+        10251075: 65,  # Katon (asli 32)
+        10251102: 65,  # Devan (asli 28)
+        10251105: 65,  # Haikal (asli 26)
+        10251108: 65,  # Kevin (asli 26)
+        10251112: 65,  # Cindy (asli 62)
+        # Yang remedial tapi UTS asli > remedial: Firni (51 vs 45), Enjelin (44 vs 35),
+        # Marine (57 vs 0), Shafwat (59 vs 55), Albin (39 vs 10) → tetap pakai UTS asli
+    },
+}
+
+
 # Sort order: pakai urutan README evaluasi dulu, lalu mahasiswa "extra" dari
 # Excel (yang tidak ada di evaluasi) di-append di akhir.
 ORDER_A = [
@@ -385,13 +436,15 @@ def generate_markdown(kelas, praktikum_map, username_map, order_list, excel_data
     lines.append("|---:|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|")
 
     overrides = ATTENDANCE_OVERRIDE.get(kelas, {})
+    uts_overrides = UTS_FINAL_OVERRIDE.get(kelas, {})
+    kuis_overrides = KUIS_OVERRIDE.get(kelas, {})
     for idx, nim in enumerate(full_order, start=1):
         excel = excel_data.get(nim, {})
         nama_excel = excel.get('nama_excel', '?')
         nama = nama_excel if nama_excel else f"NIM {nim}"
         prak = praktikum_map.get(nim)
-        kuis = excel.get('kuis')
-        uts = excel.get('uts')
+        kuis = kuis_overrides.get(nim, excel.get('kuis'))
+        uts = uts_overrides.get(nim, excel.get('uts'))
         hadir = overrides.get(nim, excel.get('attendance'))
         username = username_map.get(nim, '')
 
