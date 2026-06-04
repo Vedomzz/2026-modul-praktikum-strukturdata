@@ -3,6 +3,8 @@ description: Alur Evaluasi Manual Praktikum Struktur Data (Agent Skill/Workflow)
 ---
 # Alur Evaluasi Manual Praktikum Struktur Data
 
+> ⚠️ **DOKUMEN INI VERSI RINGKAS LAMA.** Untuk panduan lengkap dan terkini (termasuk workflow Nilai Final, override dicts di `compute_final_grades.py`, konversi huruf A-E, dan workflow Remedial UTS), lihat **`skills.md`** di root project.
+
 Dokumen ini adalah standarisasi panduan (skill/workflow) untuk agent dalam melakukan evaluasi, code review, dan pengujian kode tugas praktikum mahasiswa secara manual. Panduan ini dirancang agar dapat direplikasi untuk memeriksa **Kelas B** dan kelas-kelas lainnya.
 
 ## 1. Persiapan Evaluasi
