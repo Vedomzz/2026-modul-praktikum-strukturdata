@@ -211,7 +211,15 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 60.31**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Tidak ada folder/file Tugas Terstruktur Modul 15 di repositori.
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 56.00**
 
 | Modul | Nilai |
 |-------|-------|
@@ -228,7 +236,8 @@
 | Modul 12 | 100 |
 | Modul 13 | 0 |
 | Modul 14 | 100 |
-| **Rata-rata** | **60.31** |
+| Modul 15 | 0 |
+| **Rata-rata** | **56.00** |
 
 *Catatan: M11 T3 berisi file Praktikum 11.3, bukan Tugas Terstruktur 11.3 — T3=0.*
 

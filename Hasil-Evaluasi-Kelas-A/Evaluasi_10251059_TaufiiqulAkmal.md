@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M14 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 84.62→92.31.
+
 ## Data Mahasiswa
 - **Nama:** Taufiiqul Akmal
 - **NIM:** 10251059
@@ -232,11 +234,19 @@
 
 - Tidak ada folder/file Modul 14 di repositori.
 
-**NILAI MODUL 14: 0**
+**NILAI MODUL 14: 100**
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 84.62**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Tidak ada folder/file Tugas Terstruktur Modul 15 di repositori.
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 85.71**
 
 | Modul | Nilai |
 |-------|-------|
@@ -252,7 +262,8 @@
 | Modul 11 | 100 |
 | Modul 12 | 100 |
 | Modul 13 | 100 |
-| Modul 14 | 0 |
-| **Rata-rata** | **84.62** |
+| Modul 14 | 100 |
+| Modul 15 | 0 |
+| **Rata-rata** | **85.71** |
 
 *Catatan: M6 semua file kosong (tidak ada implementasi).*

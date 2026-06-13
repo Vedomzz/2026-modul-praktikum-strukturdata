@@ -166,7 +166,15 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 20.54**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Tidak ada Tugas Terstruktur Modul 15 (lihat catatan; sebelumnya hanya sebagian modul).
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 19.07**
 
 | Modul | Nilai |
 |-------|-------|
@@ -183,7 +191,8 @@
 | Modul 12 | 0 |
 | Modul 13 | 0 |
 | Modul 14 | 67 |
-| **Rata-rata** | **20.54** |
+| Modul 15 | 0 |
+| **Rata-rata** | **19.07** |
 
 *Catatan: Modul 11 dikumpulkan lengkap dan semua test PASSED — peningkatan signifikan setelah lama tidak mengumpulkan. Modul 12 belum dikumpulkan.*
 

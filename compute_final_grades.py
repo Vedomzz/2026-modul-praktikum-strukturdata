@@ -162,83 +162,83 @@ def parse_excel():
 
 # Praktikum scores per NIM (dari README evaluasi). NIM yang tidak ada di sini
 # berarti tidak ada data evaluasi praktikum (akan ditampilkan '-').
-PRAKTIKUM_A = {  # rata-rata M1-7, 9-14 (13 modul); update M14 Sorting Lanjutan
-    10231081: 91.00,  # M14=83 (T1 blok analisis tidak diisi)
-    10251002: 94.92,
-    10251005: 61.08,  # M14=0 (tidak ada Modul 14)
-    10251008: 67.31,  # M14=0 (hanya praktikum)
-    10251011: 78.46,  # M14=33 (hanya T2)
-    10251014: 89.54,
-    10251017: 83.77,
-    10251020: 99.23,
-    10251023: 73.85,
-    10251026: 85.23,
-    10251029: 89.85,
-    10251032: 84.54,
-    10251035: 97.23,
-    10251038: 95.69,
-    10251044: 75.69,  # M14=0 (tidak ada Modul 14)
-    10251047: 85.00,  # M14=0 (hanya praktikum)
-    10251050: 79.54,  # M14=0 (tidak ada Modul 14)
-    10251053: 73.08,  # M14=33 (T1 RecursionError, T2 AssertionError)
-    10251056: 99.23,
-    10251059: 84.62,  # M14=0 (tidak ada Modul 14)
-    10251062: 87.23,  # M14=0 (tidak ada Modul 14)
-    10251065: 82.08,  # M14=0 (tidak ada Modul 14)
-    10251068: 86.92,
-    10251071: 88.46,  # M14=0 (tidak ada Modul 14)
-    10251074: 74.38,  # M14=0 (tidak ada Modul 14)
-    10251086: 89.77,  # Hidayah pakai NIM 10251086 di Excel (terdaftar GitHub Classroom: 10251075); M14=100
-    10251077: 81.77,  # M14=0 (hanya praktikum)
-    10251080: 84.62,
-    10251083: 97.46,
-    10251089: 85.92,  # M14=0 (tidak ada Modul 14)
-    10251092: 83.31,
-    10251095: 96.15,
-    10251104: 88.23,  # M14=0 (file tugas kosong)
-    10251107: 75.92,  # M14=0 (hanya praktikum)
-    10251110: 93.00,
-    10251114: 75.69,
-    10251117: 87.38,  # M14=83 (T1 blok analisis tidak diisi)
+PRAKTIKUM_A = {  # rata-rata M1-7, 9-15 (14 modul); update M15 Trie/Tensor
+    10231081: 91.64,  # M14=83 (T1 blok analisis tidak diisi)
+    10251002: 95.29,
+    10251005: 56.71,  # M14=0 (tidak ada Modul 14)
+    10251008: 62.50,  # M14=0 (hanya praktikum)
+    10251011: 77.64,  # M14=33 (hanya T2)
+    10251014: 89.93,
+    10251017: 84.93,
+    10251020: 99.29,
+    10251023: 90.00,  # koreksi feedback 13Jun
+    10251026: 88.64,  # koreksi feedback 13Jun
+    10251029: 90.57,
+    10251032: 92.79,  # koreksi feedback 13Jun
+    10251035: 97.43,
+    10251038: 96.00,
+    10251044: 84.57,  # koreksi feedback 13Jun
+    10251047: 83.71,  # M14=0 (hanya praktikum)
+    10251050: 81.00,  # M14=0 (tidak ada Modul 14)
+    10251053: 86.93,  # koreksi feedback 13Jun
+    10251056: 92.14,
+    10251059: 85.71,  # koreksi feedback 13Jun
+    10251062: 95.29,  # koreksi feedback 13Jun
+    10251065: 97.64,  # koreksi feedback 13Jun
+    10251068: 87.86,
+    10251071: 96.43,  # koreksi feedback 13Jun
+    10251074: 88.14,  # koreksi feedback 13Jun
+    10251086: 90.50,  # Hidayah pakai NIM 10251086 di Excel (terdaftar GitHub Classroom: 10251075); M14=100
+    10251077: 80.71,  # koreksi feedback 13Jun
+    10251080: 85.71,  # koreksi feedback 13Jun
+    10251083: 97.64,
+    10251089: 86.93,  # koreksi feedback 13Jun
+    10251092: 77.36,
+    10251095: 96.43,
+    10251104: 96.21,  # koreksi feedback 13Jun
+    10251107: 75.29,  # M14=0 (hanya praktikum)
+    10251110: 93.50,
+    10251114: 77.43,
+    10251117: 88.29,  # M14=83 (T1 blok analisis tidak diisi)
 }
 
-PRAKTIKUM_B = {  # rata-rata M1-7, 9-14 (13 modul); update M14 Sorting Lanjutan
-    10231001: 97.46,
-    10231038: 90.46,
-    10251006: 87.46,
-    10251009: 38.46,  # M14=0
-    10251012: 69.23,
-    10251015: 74.38,
-    10251018: 88.23,
-    10251021: 44.62,
-    10251024: 84.62,  # M14=0
-    10251027: 82.08,  # M14=0 (placeholder kosong)
-    10251084: 69.54,  # M14=0 (hanya praktikum)
-    10251033: 70.54,
-    10251036: 55.92,  # M14=0
-    10251039: 30.77,  # M14=0
-    10251042: 35.93,  # M14=0
-    10251048: 89.77,
-    10251051: 15.39,  # M14=0
-    10251054: 65.93,  # M14=0
-    10251057: 79.54,
-    10251060: 94.92,
-    10251063: 89.77,
-    10251066: 78.23,
-    10251069: 51.54,  # M14=0
-    10251072: 92.38,
-    10251075: 20.54,  # M14=67 (T1 duplikat konten T2)
-    10251078: 92.08,
-    10251081: 32.31,  # M14=0
-    10251087: 55.15,  # M14=0
-    10251090: 88.46,  # M14=0 (konten Modul 15, bukan sorting)
-    10251093: 33.39,  # M14=0
-    10251099: 82.08,  # M14=0
-    10251102: 15.39,  # M14=0
-    10251105: 81.08,
-    10251108: 62.84,  # M14=0 (hanya praktikum)
-    10251112: 60.31,
-    10251115: 85.92,
+PRAKTIKUM_B = {  # rata-rata M1-7, 9-15 (14 modul); update M15 Trie/Tensor
+    10231001: 97.64,
+    10231038: 91.14,
+    10251006: 88.36,
+    10251009: 42.86,  # M14=0
+    10251012: 83.36,  # koreksi: M9 & M10 ada (folder Minggu9/Minggu10 tak terdeteksi) - M9=100, M10=67
+    10251015: 76.21,
+    10251018: 89.07,
+    10251021: 55.71,  # koreksi: M13 ada (terblokir path invalid `...`) - M13=100
+    10251024: 85.71,  # M14=0
+    10251027: 81.00,  # M14=0 (placeholder kosong)
+    10251084: 71.71,  # M14=0 (hanya praktikum)
+    10251033: 72.64,
+    10251036: 59.07,  # M14=0
+    10251039: 35.71,  # M14=0
+    10251042: 33.36,  # M14=0
+    10251048: 90.50,
+    10251051: 21.43,  # M14=0
+    10251054: 68.00,  # M14=0
+    10251057: 88.14,  # koreksi: M10 ada (terblokir path invalid `H. L.`) - M10=100
+    10251060: 95.29,
+    10251063: 90.50,
+    10251066: 79.79,
+    10251069: 55.00,  # M14=0
+    10251072: 92.93,
+    10251075: 19.07,  # M14=67 (T1 duplikat konten T2)
+    10251078: 92.64,
+    10251081: 30.00,  # M14=0
+    10251087: 51.21,  # M14=0
+    10251090: 89.29,  # M14=0 (konten Modul 15, bukan sorting)
+    10251093: 31.00,  # M14=0
+    10251099: 83.36,  # M14=0
+    10251102: 14.29,  # M14=0
+    10251105: 82.43,
+    10251108: 65.50,  # M14=0 (hanya praktikum)
+    10251112: 56.00,
+    10251115: 86.93,
 }
 
 # Username (GitHub) per NIM
@@ -310,7 +310,11 @@ ATTENDANCE_OVERRIDE = {
         10251098: 0.0,  # Panji Dwi
         10251101: 0.0,  # Fawwaz
     },
-    'B': {},
+    'B': {
+        # Dispensasi penuh (1.0) untuk minggu terdampak sakit/kecelakaan (surat/keterangan resmi):
+        10251009: 90.91,  # Taufiq: sakit, dispensasi W9-12 (W4 alpa tetap)
+        10251102: 81.82,  # Devan: kecelakaan 3-18 Mei, dispensasi W9 & W10
+    },
 }
 
 
@@ -319,6 +323,10 @@ KUIS_OVERRIDE = {
     'A': {},
     'B': {
         10251115: 60,  # Jonatan Bagus Kristiawan (Excel kosong, diinput susulan)
+        # Tidak ikut kuis -> diganti nilai tugas minggu tertentu, DICAP MAKS 70:
+        10251021: 70,  # Alejandro: pengganti = tugas Week 10 (nilai 100, cap 70)
+        10251102: 70,  # Devan: pengganti = tugas Week 4 (nilai 100, cap 70)
+        10251069: 70,  # Albin: pengganti = tugas Week 6 (nilai 100, cap 70)
     },
 }
 
@@ -328,6 +336,9 @@ KUIS_OVERRIDE = {
 # Hanya berisi mhs yang skornya naik karena remedial. Yang lain pakai UTS asli dari Excel.
 UTS_FINAL_OVERRIDE = {
     'A': {
+        10251107: 65,  # Rifat Sutha (asli 47) - remedial PASSED, sblmnya tak terdeteksi
+        10251117: 65,  # Azriel (asli 46) - remedial PASSED
+        10251114: 65,  # Andre (asli 43) - remedial PASSED
         10251002: 65,  # Dina (asli 30, remedial cap 65)
         10251005: 65,  # Rifat A (asli 46)
         10251017: 65,  # Devi (asli 45)
@@ -348,6 +359,7 @@ UTS_FINAL_OVERRIDE = {
         # → tidak di-override, tetap pakai UTS asli
     },
     'B': {
+        10251021: 65,  # Alejandro (asli 36) - remedial terdeteksi, Soal1/2/3 PASSED
         10251012: 65,  # Fransiskus (asli 51)
         10251027: 65,  # Kurnia (asli 55)
         10251039: 65,  # Khoiry (asli 52)
@@ -359,8 +371,9 @@ UTS_FINAL_OVERRIDE = {
         10251105: 65,  # Haikal (asli 26)
         10251108: 65,  # Kevin (asli 26)
         10251112: 65,  # Cindy (asli 62)
+        10251036: 65,  # Marine (asli 57) - logika S1/2/3 BENAR (PASSED setelah bypass teks markdown di source); dinilai utuh per kebijakan dosen
         # Yang remedial tapi UTS asli > remedial: Firni (51 vs 45), Enjelin (44 vs 35),
-        # Marine (57 vs 0), Shafwat (59 vs 55), Albin (39 vs 10) → tetap pakai UTS asli
+        # Shafwat (59 vs 55), Albin (39 vs 10) → tetap pakai UTS asli
     },
 }
 

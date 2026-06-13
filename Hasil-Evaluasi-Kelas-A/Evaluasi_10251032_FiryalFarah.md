@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M12 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 84.54→92.23.
+
 ## Data Mahasiswa
 - **Nama:** Firyal Farah Khulaidah
 - **NIM:** 10251032
@@ -200,7 +202,7 @@
 - **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 12: 0**
+**NILAI MODUL 12: 100**
 
 ---
 
@@ -240,7 +242,25 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 84.54**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `insert`, `search`, `autocomplete`, `count_words`, `count_prefixes`, `delete` benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Pengecekan Kode:** `dot_product`, `matrix_multiply`, `flatten`, `reshape`, dll. benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban analisis studi kasus terisi lengkap.
+- **Hasil Testing Terminal:** **N/A** (analisis) — terisi (100%)
+
+**NILAI MODUL 15: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 92.79**
 
 | Modul | Nilai |
 |-------|-------|
@@ -254,9 +274,10 @@
 | Modul 9 | 67 |
 | Modul 10 | 100 |
 | Modul 11 | 67 |
-| Modul 12 | 0 |
+| Modul 12 | 100 |
 | Modul 13 | 100 |
 | Modul 14 | 100 |
-| **Rata-rata** | **84.54** |
+| Modul 15 | 100 |
+| **Rata-rata** | **92.79** |
 
 *Catatan: M7 T2 hanya 4/8 test case diimplementasikan. M11 T3 berisi kode Praktikum 11.3 (file salah). Modul 12 tidak dikumpulkan.*

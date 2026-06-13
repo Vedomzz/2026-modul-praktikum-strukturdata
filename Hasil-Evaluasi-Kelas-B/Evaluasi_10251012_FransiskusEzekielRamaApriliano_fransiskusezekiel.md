@@ -136,28 +136,29 @@
 
 ## 🔢 Hasil Evaluasi Modul 9: Tree & Binary Tree
 
-### 1-3. Semua Tugas
-- **Pengecekan Kode:** Tidak ada folder `Minggu9`/`minggu9` di repo.
-- **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
+> 🔧 **Koreksi (feedback mahasiswa):** Folder `Minggu9/` (huruf kapital) sebelumnya tidak terdeteksi. Setelah evaluasi ulang:
 
-**✨ NILAI MODUL 9: 0 ✨**
+### 1-3. Semua Tugas
+- **Hasil Testing Terminal:** T1 **PASSED**, T2 **PASSED**, T3 **PASSED** (100%)
+
+**✨ NILAI MODUL 9: 100 ✨**
 
 ---
 ## Hasil Evaluasi Modul 10: Binary Search Tree (BST)
 
+> 🔧 **Koreksi (feedback mahasiswa):** Folder `Minggu10/` (huruf kapital) sebelumnya tidak terdeteksi. Setelah evaluasi ulang:
+
 ### 1. Tugas 1: Pengembangan BST Class
-- **Pengecekan Kode:** Tidak ada folder/file Modul 10 di repo.
-- **Hasil Testing Terminal:** **TIDAK DIKUMPULKAN** ❌ (0%)
+- **Hasil Testing Terminal:** **PASSED** (100%)
 
 ### 2. Tugas 2: Sistem Phonebook dengan BST
-- **Pengecekan Kode:** Tidak ada folder/file Modul 10 di repo.
-- **Hasil Testing Terminal:** **TIDAK DIKUMPULKAN** ❌ (0%)
+- **Pengecekan Kode:** `ContactNode()` tidak menerima argumen pada konstruktor — `TypeError: ContactNode() takes no arguments`.
+- **Hasil Testing Terminal:** **FAILED** ❌ (0%)
 
 ### 3. Tugas 3: Analisis Performa BST
-- **Pengecekan Kode:** Tidak ada folder/file Modul 10 di repo.
-- **Hasil Testing Terminal:** **TIDAK DIKUMPULKAN** ❌ (0%)
+- **Hasil Testing Terminal:** **PASSED** (100%)
 
-**NILAI MODUL 10: 0**
+**NILAI MODUL 10: 67**
 
 ---
 
@@ -224,7 +225,25 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 69.23**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `insert`, `search`, `autocomplete`, `count_words`, `count_prefixes`, `delete` benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Pengecekan Kode:** `dot_product`, `matrix_multiply`, `flatten`, `reshape`, dll. benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban analisis studi kasus terisi lengkap.
+- **Hasil Testing Terminal:** **N/A** (analisis) — terisi (100%)
+
+**NILAI MODUL 15: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 83.36**
 
 | Modul | Nilai |
 |-------|-------|
@@ -235,13 +254,14 @@
 | Modul 5 | 100 |
 | Modul 6 | 100 |
 | Modul 7 | 0 |
-| Modul 9 | 0 |
-| Modul 10 | 0 |
+| Modul 9 | 100 |
+| Modul 10 | 67 |
 | Modul 11 | 100 |
 | Modul 12 | 0 |
 | Modul 13 | 100 |
 | Modul 14 | 100 |
-| **Rata-rata** | **69.23** |
+| Modul 15 | 100 |
+| **Rata-rata** | **83.36** |
 
 *Catatan: Modul 12 tidak dikumpulkan.*
 

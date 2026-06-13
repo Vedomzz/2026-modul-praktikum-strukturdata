@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M11, M12 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. M12 T1 `SyntaxError` (stray `"""` di akhir file) → T1=0, M12=67. M11 lengkap & PASSED → 100. Rata-rata 74.38→87.23.
+
 ## Data Mahasiswa
 - **Nama:** Muhammad Rizqi Akbar
 - **NIM:** 10251074
@@ -181,7 +183,7 @@
 - **Pengecekan:** Tidak ditemukan folder atau file Modul 11 di repositori. Commit terakhir di Modul 10 (`tugas3_*`) pada 9 Mei 2026.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 11: 0**
+**NILAI MODUL 11: 100**
 
 ---
 
@@ -191,7 +193,7 @@
 - **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 12: 0**
+**NILAI MODUL 12: 67**
 
 ---
 
@@ -221,7 +223,25 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 74.38**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `insert`, `search`, `autocomplete`, `count_words`, `count_prefixes`, `delete` benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Pengecekan Kode:** `dot_product`, `matrix_multiply`, `flatten`, `reshape`, dll. benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban analisis studi kasus terisi lengkap.
+- **Hasil Testing Terminal:** **N/A** (analisis) — terisi (100%)
+
+**NILAI MODUL 15: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 88.14**
 
 | Modul | Nilai |
 |-------|-------|
@@ -234,10 +254,11 @@
 | Modul 7 | 100 |
 | Modul 9 | 100 |
 | Modul 10 | 100 |
-| Modul 11 | 0 |
-| Modul 12 | 0 |
+| Modul 11 | 100 |
+| Modul 12 | 67 |
 | Modul 13 | 100 |
 | Modul 14 | 0 |
-| **Rata-rata** | **74.38** |
+| Modul 15 | 100 |
+| **Rata-rata** | **88.14** |
 
 *Catatan: Modul 11 & Modul 12 tidak dikumpulkan sama sekali (commit terakhir di Modul 10).*

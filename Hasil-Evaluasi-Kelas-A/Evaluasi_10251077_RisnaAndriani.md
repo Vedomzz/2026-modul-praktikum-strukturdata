@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M11 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 81.77→86.92.
+
 ## Data Mahasiswa
 - **Nama:** Risna Andriani
 - **NIM:** 10251077
@@ -191,7 +193,7 @@
 - **Pengecekan:** File `Tugas 3_*.py` tidak ditemukan di folder `minggu 11/`.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 11: 33** *((100+0+0)/3 ≈ 33)*
+**NILAI MODUL 11: 100** *((100+0+0)/3 ≈ 33)*
 
 ---
 
@@ -239,7 +241,15 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 81.77**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Tidak ada folder/file Tugas Terstruktur Modul 15 di repositori.
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 80.71**
 
 | Modul | Nilai |
 |-------|-------|
@@ -252,10 +262,11 @@
 | Modul 7 | 100 |
 | Modul 9 | 67 |
 | Modul 10 | 100 |
-| Modul 11 | 33 |
+| Modul 11 | 100 |
 | Modul 12 | 100 |
 | Modul 13 | 67 |
 | Modul 14 | 0 |
-| **Rata-rata** | **81.77** |
+| Modul 15 | 0 |
+| **Rata-rata** | **80.71** |
 
 *Catatan: M11 hanya mengumpulkan Tugas 1 (Tugas 2 & Tugas 3 tidak ada di repo).*

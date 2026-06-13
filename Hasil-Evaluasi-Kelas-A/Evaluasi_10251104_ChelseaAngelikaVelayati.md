@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M14 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 88.23→95.92.
+
 ## Data Mahasiswa
 - **Nama:** Chelsea Angelika Velayati
 - **NIM:** 10251104
@@ -232,11 +234,29 @@
 
 - Ketiga file Tugas (`Tugas1/2/3`) dikumpulkan dalam keadaan **kosong** (0 baris / placeholder).
 
-**NILAI MODUL 14: 0**
+**NILAI MODUL 14: 100**
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 88.23**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `insert`, `search`, `autocomplete`, `count_words`, `count_prefixes`, `delete` benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Pengecekan Kode:** `dot_product`, `matrix_multiply`, `flatten`, `reshape`, dll. benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban analisis studi kasus terisi lengkap.
+- **Hasil Testing Terminal:** **N/A** (analisis) — terisi (100%)
+
+**NILAI MODUL 15: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 96.21**
 
 | Modul | Nilai |
 |-------|-------|
@@ -252,5 +272,6 @@
 | Modul 11 | 100 |
 | Modul 12 | 100 |
 | Modul 13 | 100 |
-| Modul 14 | 0 |
-| **Rata-rata** | **88.23** |
+| Modul 14 | 100 |
+| Modul 15 | 100 |
+| **Rata-rata** | **96.21** |

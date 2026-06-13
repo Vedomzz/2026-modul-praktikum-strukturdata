@@ -240,7 +240,24 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 89.54**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** Trie benar, semua test PASSED. **Namun file tanpa ekstensi `.py`** (`Tugas1_..._Zacky Ahmad Ardian`) → penalti -15 (T1=85).
+- **Hasil Testing Terminal:** **PASSED** (85%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban terisi lengkap (nama file `...py.py` double ekstensi, tetap valid).
+- **Hasil Testing Terminal:** terisi (100%)
+
+**NILAI MODUL 15: 95**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 89.93**
 
 | Modul | Nilai |
 |-------|-------|
@@ -257,6 +274,7 @@
 | Modul 12 | 0 |
 | Modul 13 | 100 |
 | Modul 14 | 100 |
-| **Rata-rata** | **89.54** |
+| Modul 15 | 95 |
+| **Rata-rata** | **89.93** |
 
 *Catatan: Modul 12 tidak dikumpulkan.*

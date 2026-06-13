@@ -240,7 +240,23 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 78.46**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `AssertionError: GAGAL count_prefixes ban` — method `count_prefixes` salah hitung.
+- **Hasil Testing Terminal:** **FAILED** ❌ (T1=0)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Hasil Testing Terminal:** terisi lengkap (100%)
+
+**NILAI MODUL 15: 67**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 77.64**
 
 | Modul | Nilai |
 |-------|-------|
@@ -257,6 +273,7 @@
 | Modul 12 | 0 |
 | Modul 13 | 67 |
 | Modul 14 | 33 |
-| **Rata-rata** | **78.46** |
+| Modul 15 | 67 |
+| **Rata-rata** | **77.64** |
 
 *Catatan: Modul 12 hanya mengumpulkan Praktikum tanpa Tugas Terstruktur — M12=0.*

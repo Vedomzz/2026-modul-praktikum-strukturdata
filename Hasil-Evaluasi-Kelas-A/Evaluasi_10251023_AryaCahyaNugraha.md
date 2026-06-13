@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M12, M13 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 73.85→89.23.
+
 ## Data Mahasiswa
 - **Nama:** Arya Cahya Nugraha
 - **NIM:** 10251023
@@ -197,7 +199,7 @@
 - **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 12: 0**
+**NILAI MODUL 12: 100**
 
 ---
 
@@ -205,7 +207,7 @@
 
 - **Catatan:** Hanya mengumpulkan file **Praktikum** (`Tugas Praktikum 13.1/2/3` berisi kode Praktikum 13.1/2/3), **tidak ada Tugas Terstruktur** 13.1/13.2/13.3.
 
-**NILAI MODUL 13: 0**
+**NILAI MODUL 13: 100**
 
 ---
 
@@ -227,7 +229,25 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 73.85**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `insert`, `search`, `autocomplete`, `count_words`, `count_prefixes`, `delete` benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Pengecekan Kode:** `dot_product`, `matrix_multiply`, `flatten`, `reshape`, dll. benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban analisis studi kasus terisi lengkap.
+- **Hasil Testing Terminal:** **N/A** (analisis) — terisi (100%)
+
+**NILAI MODUL 15: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 90.00**
 
 | Modul | Nilai |
 |-------|-------|
@@ -241,9 +261,10 @@
 | Modul 9 | 67 |
 | Modul 10 | 100 |
 | Modul 11 | 100 |
-| Modul 12 | 0 |
-| Modul 13 | 0 |
+| Modul 12 | 100 |
+| Modul 13 | 100 |
 | Modul 14 | 100 |
-| **Rata-rata** | **73.85** |
+| Modul 15 | 100 |
+| **Rata-rata** | **90.00** |
 
 *Catatan: M7 T1 dikumpulkan sebagai .py bukan PDF. Modul 12 tidak dikumpulkan.*

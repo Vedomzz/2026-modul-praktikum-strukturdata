@@ -52,10 +52,10 @@
 | 10251089 | **Muhammad Ryan Eka Putra** | B | - | - | - | - | - | - | 62 | **62** | Belum submit remedial |
 | 10251092 | **Razi Abdullah** | C | 25 | 25 | 30 | 20 | 100 | **65** | 35 | **65** | Lengkap |
 | 10251104 | **Chelsea Angelika Velayati** | A | 25 | 25 | 30 | 20 | 100 | **65** | 45 | **65** | Lengkap |
-| 10251107 | **Rifat Sutha Abdillah** | B | - | - | - | - | - | - | 47 | **47** | Belum submit remedial |
+| 10251107 | **Rifat Sutha Abdillah** | B | 25 | 25 | 30 | 20 | 100 | **65** | 47 | **65** | Lengkap. Sebelumnya tercatat belum submit; Soal1/2/3 PASSED |
 | 10251110 | **Farel Noviansyah** | C | 25 | 25 | 30 | 20 | 100 | **65** | 37 | **65** | Lengkap |
-| 10251114 | **Andre Adi Ruhaya** | A | - | - | - | - | - | - | 43 | **43** | Belum submit remedial |
-| 10251117 | **Muhammad Azriel Al Fadhil** | B | - | - | - | - | - | - | 46 | **46** | Belum submit remedial |
+| 10251114 | **Andre Adi Ruhaya** | A | 25 | 25 | 30 | 20 | 100 | **65** | 43 | **65** | Lengkap. Sebelumnya tercatat belum submit; Soal1/2/3 PASSED |
+| 10251117 | **Muhammad Azriel Al Fadhil** | B | 25 | 25 | 30 | 20 | 100 | **65** | 46 | **65** | Lengkap. Sebelumnya tercatat belum submit; Soal1/2/3 PASSED |
 
 ---
 

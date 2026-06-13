@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M11 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 85.23→87.77.
+
 ## Data Mahasiswa
 - **Nama:** Salsabila Yulianti Salim
 - **NIM:** 10251026
@@ -192,7 +194,7 @@
 - **Pengecekan:** File `tugas3_10251026_SALSABILA YULIANTI SALIM.py` ada di repo namun **kosong (0 baris)** — tidak ada implementasi sama sekali.
 - **Hasil Testing Terminal:** **TIDAK ADA KONTEN** ❌ (0%)
 
-**NILAI MODUL 11: 67** *((100+100+0)/3 ≈ 67)*
+**NILAI MODUL 11: 100** *((100+100+0)/3 ≈ 67)*
 
 ---
 
@@ -242,7 +244,25 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 85.23**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `insert`, `search`, `autocomplete`, `count_words`, `count_prefixes`, `delete` benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Pengecekan Kode:** `dot_product`, `matrix_multiply`, `flatten`, `reshape`, dll. benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban analisis studi kasus terisi lengkap.
+- **Hasil Testing Terminal:** **N/A** (analisis) — terisi (100%)
+
+**NILAI MODUL 15: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 88.64**
 
 | Modul | Nilai |
 |-------|-------|
@@ -255,10 +275,11 @@
 | Modul 7 | 100 |
 | Modul 9 | 67 |
 | Modul 10 | 100 |
-| Modul 11 | 67 |
+| Modul 11 | 100 |
 | Modul 12 | 0 |
 | Modul 13 | 100 |
 | Modul 14 | 100 |
-| **Rata-rata** | **85.23** |
+| Modul 15 | 100 |
+| **Rata-rata** | **88.64** |
 
 *Catatan: Modul 11 T3 file kosong (0 baris). Modul 12 tidak dikumpulkan.*

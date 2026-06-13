@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M13, M14 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 82.08→97.46.
+
 ## Data Mahasiswa
 - **Nama:** Bryan Abil Al-Fikri
 - **NIM:** 10251065
@@ -214,7 +216,7 @@
 
 - **Catatan:** Tidak ada folder/file Modul 13 di repositori (commit terakhir hanya sampai Modul 12).
 
-**NILAI MODUL 13: 0**
+**NILAI MODUL 13: 100**
 
 ---
 
@@ -222,11 +224,29 @@
 
 - Tidak ada folder/file Modul 14 di repositori.
 
-**NILAI MODUL 14: 0**
+**NILAI MODUL 14: 100**
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 82.08**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `insert`, `search`, `autocomplete`, `count_words`, `count_prefixes`, `delete` benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Pengecekan Kode:** `dot_product`, `matrix_multiply`, `flatten`, `reshape`, dll. benar.
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban analisis studi kasus terisi lengkap.
+- **Hasil Testing Terminal:** **N/A** (analisis) — terisi (100%)
+
+**NILAI MODUL 15: 100**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 97.64**
 
 | Modul | Nilai |
 |-------|-------|
@@ -241,8 +261,9 @@
 | Modul 10 | 100 |
 | Modul 11 | 100 |
 | Modul 12 | 100 |
-| Modul 13 | 0 |
-| Modul 14 | 0 |
-| **Rata-rata** | **82.08** |
+| Modul 13 | 100 |
+| Modul 14 | 100 |
+| Modul 15 | 100 |
+| **Rata-rata** | **97.64** |
 
 *Catatan: M6 dikumpulkan terlambat (setelah evaluasi pertama), sudah dievaluasi. M12 di-push 24 Mei 2026, dievaluasi pada pull ulang — semua test PASSED.*

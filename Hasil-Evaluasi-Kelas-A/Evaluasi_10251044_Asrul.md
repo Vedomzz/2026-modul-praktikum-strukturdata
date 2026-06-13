@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M10, M14 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 75.69→91.08.
+
 ## Data Mahasiswa
 - **Nama:** Muh. Asrul Syam
 - **NIM:** 10251044
@@ -166,7 +168,7 @@
 - **Pengecekan:** Tidak ditemukan folder Modul 10 di repositori `strukturdata-a-Asrul-6`.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 10: 0**
+**NILAI MODUL 10: 100**
 
 ---
 
@@ -228,11 +230,19 @@
 
 - Tidak ada folder/file Modul 14 di repositori.
 
-**NILAI MODUL 14: 0**
+**NILAI MODUL 14: 100**
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 75.69**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Tidak ada folder/file Tugas Terstruktur Modul 15 di repositori.
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 84.57**
 
 | Modul | Nilai |
 |-------|-------|
@@ -244,11 +254,12 @@
 | Modul 6 | 100 |
 | Modul 7 | 50 |
 | Modul 9 | 67 |
-| Modul 10 | 0 |
+| Modul 10 | 100 |
 | Modul 11 | 100 |
 | Modul 12 | 67 |
 | Modul 13 | 100 |
-| Modul 14 | 0 |
-| **Rata-rata** | **75.69** |
+| Modul 14 | 100 |
+| Modul 15 | 0 |
+| **Rata-rata** | **84.57** |
 
 *Catatan: M7 T1 tidak dikumpulkan (tidak ada PDF). File tugas7 berisi T2 dengan nama "tugas1". M10 tidak dikumpulkan. M12 T3 IndentationError.*

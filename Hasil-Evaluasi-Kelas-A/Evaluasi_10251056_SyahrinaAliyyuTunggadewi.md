@@ -247,7 +247,15 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 99.23**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Tidak ada folder/file Tugas Terstruktur Modul 15 di repositori.
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 92.14**
 
 | Modul | Nilai |
 |-------|-------|
@@ -264,4 +272,5 @@
 | Modul 12 | 100 |
 | Modul 13 | 100 |
 | Modul 14 | 100 |
-| **Rata-rata** | **99.23** |
+| Modul 15 | 0 |
+| **Rata-rata** | **92.14** |

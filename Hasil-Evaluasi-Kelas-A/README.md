@@ -1,4 +1,4 @@
-# Laporan Evaluasi Praktikum Struktur Data (Kelas A) - Modul 1,2,3,4,5,6,7, 9, 10, 11, 12, 13 & 14
+# Laporan Evaluasi Praktikum Struktur Data (Kelas A) - Modul 1,2,3,4,5,6,7, 9, 10, 11, 12, 13, 14 & 15
 
 > **Catatan:** Laporan ini diperbarui secara manual setiap kali asisten selesai memeriksa dan menjalankan *test case* satu per satu sesuai urutan NIM.
 
@@ -6,45 +6,45 @@
 
 ## 📋 Rekapitulasi Nilai Mahasiswa
 
-| No | Nama Lengkap | NIM | GitHub Username | M1 | M2 | M3 | M4 | M5 | M6 | M7 | M9 | M10 | M11 | M12 | M13 | M14 | Nilai Rata-rata | Detail Evaluasi |
-|---:|:---|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| 1 | **Rendy** | 10231081 | `NorEndGate` | 100 | 100 | 100 | 100 | 67 | 100 | 50 | 100 | 100 | 100 | 100 | 83 | 83 | ![Score](https://img.shields.io/badge/Score-91.00-success) | [Lihat Laporan](Evaluasi_10231081_NorEndGate.md) |
-| 2 | **Dina Gracella Apnel Lengkong** | 10251002 | `10251002` | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-94.92-success) | [Lihat Laporan](Evaluasi_10251002_DinaGracellaApnelLengkong.md) |
-| 3 | **Rifat Adlyjuliandra** | 10251005 | `rifatadlyjuliandra` | 100 | 100 | 60 | 100 | 100 | 100 | 0 | 67 | 0 | 100 | 0 | 67 | 0 | ![Score](https://img.shields.io/badge/Score-61.08-orange) | [Lihat Laporan](Evaluasi_10251005_rifatadlyjuliandra.md) |
-| 4 | **Nadya Az-Zahra** | 10251008 | `nadyaazzahra` | 100 | 100 | 67 | 67 | 97 | 77 | 100 | 100 | 100 | 0 | 0 | 67 | 0 | ![Score](https://img.shields.io/badge/Score-67.31-orange) | [Lihat Laporan](Evaluasi_10251008_NadyaAzZahra.md) |
-| 5 | **A. Suci Maharani P** | 10251011 | `Asuci-Maharani` | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 67 | 53 | 100 | 0 | 67 | 33 | ![Score](https://img.shields.io/badge/Score-78.46-yellowgreen) | [Lihat Laporan](Evaluasi_10251011_ASuciMaharani.md) |
-| 6 | **Zacky Ahmad Ardian** | 10251014 | `Zacky10251014` | 100 | 100 | 97 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 0 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-89.54-yellowgreen) | [Lihat Laporan](Evaluasi_10251014_ZackyAhmadArdian.md) |
-| 7 | **Devi Gustiani** | 10251017 | `devigustiani` | 100 | 80 | 100 | 100 | 85 | 85 | 75 | 67 | 97 | 100 | 100 | 0 | 100 | ![Score](https://img.shields.io/badge/Score-83.77-yellowgreen) | [Lihat Laporan](Evaluasi_10251017_DeviGustiani.md) |
-| 8 | **Dhevrant Zhelynov Malelo** | 10251020 | `Dhevrant` | 90 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-99.23-success) | [Lihat Laporan](Evaluasi_10251020_Dhevrant.md) |
-| 9 | **Arya Cahya Nugraha** | 10251023 | `AryaCahyaNugraha22` | 100 | 100 | 60 | 83 | 100 | 100 | 50 | 67 | 100 | 100 | 0 | 0 | 100 | ![Score](https://img.shields.io/badge/Score-73.85-yellowgreen) | [Lihat Laporan](Evaluasi_10251023_AryaCahyaNugraha.md) |
-| 10 | **Salsabila Yulianti Salim** | 10251026 | `Salsabilaayees` | 100 | 100 | 100 | 100 | 97 | 77 | 100 | 67 | 100 | 67 | 0 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-85.23-yellowgreen) | [Lihat Laporan](Evaluasi_10251026_Salsabila.md) |
-| 11 | **Silvester Jevon Amabel** | 10251029 | `SilvesterJevon` | 100 | 100 | 100 | 67 | 97 | 87 | 50 | 67 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-89.85-yellowgreen) | [Lihat Laporan](Evaluasi_10251029_SilvesterJevon.md) |
-| 12 | **Firyal Farah Khulaidah** | 10251032 | `FiryalFarah` | 100 | 100 | 100 | 90 | 100 | 100 | 75 | 67 | 100 | 67 | 0 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-84.54-yellowgreen) | [Lihat Laporan](Evaluasi_10251032_FiryalFarah.md) |
-| 13 | **Putri Nabila Safitri** | 10251035 | `10251035-Putri` | 100 | 100 | 100 | 100 | 97 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-97.23-success) | [Lihat Laporan](Evaluasi_10251035_PutriNabilaSafitri.md) |
-| 14 | **Ayudya Aisyah Mutiaradinna** | 10251038 | `10251038` | 100 | 100 | 100 | 80 | 97 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-95.69-success) | [Lihat Laporan](Evaluasi_10251038_Ayudya.md) |
-| 15 | **Muh. Asrul Syam** | 10251044 | `Asrul-6` | 100 | 100 | 100 | 100 | 100 | 100 | 50 | 67 | 0 | 100 | 67 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-75.69-yellowgreen) | [Lihat Laporan](Evaluasi_10251044_Asrul.md) |
-| 16 | **Nurul Syahira A** | 10251047 | `syahira10251047` | 100 | 100 | 100 | 80 | 100 | 100 | 75 | 83 | 100 | 100 | 67 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-85.00-yellowgreen) | [Lihat Laporan](Evaluasi_10251047_Syahira.md) |
-| 17 | **Muhammad Zennin Feriatta Dzakwan** | 10251050 | `Zennin2511` | 100 | 100 | 90 | 90 | 100 | 87 | 100 | 67 | 100 | 0 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-79.54-yellowgreen) | [Lihat Laporan](Evaluasi_10251050_Zennin.md) |
-| 18 | **Noel Natalian Somba** | 10251053 | `N3CH0` | 100 | 100 | 100 | 100 | 100 | 100 | 50 | 67 | 100 | 0 | 0 | 100 | 33 | ![Score](https://img.shields.io/badge/Score-73.08-yellowgreen) | [Lihat Laporan](Evaluasi_10251053_NoelNatalianSomba.md) |
-| 19 | **Syahrina Aliyyu Tunggadewi** | 10251056 | `SyahrinaAliyyuTunggadewi` | 100 | 100 | 100 | 90 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-99.23-success) | [Lihat Laporan](Evaluasi_10251056_SyahrinaAliyyuTunggadewi.md) |
-| 20 | **Taufiiqul Akmal** | 10251059 | `10251059-coder` | 100 | 100 | 100 | 100 | 100 | 0 | 100 | 100 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-84.62-yellowgreen) | [Lihat Laporan](Evaluasi_10251059_TaufiiqulAkmal.md) |
-| 21 | **Ananda Eurico Rhiva Rifqia Salim** | 10251062 | `AnandaEurico` | 100 | 100 | 100 | 80 | 100 | 87 | 100 | 67 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-87.23-yellowgreen) | [Lihat Laporan](Evaluasi_10251062_AnandaEurico.md) |
-| 22 | **Bryan Abil Al-Fikri** | 10251065 | `Bryan1065` | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 0 | 0 | ![Score](https://img.shields.io/badge/Score-82.08-yellowgreen) | [Lihat Laporan](Evaluasi_10251065_BryanAbilAlFikri.md) |
-| 23 | **Muhammad Fajri Ikhsan** | 10251068 | `Fajri-ITK` | 100 | 100 | 100 | 100 | 93 | 70 | 100 | 67 | 100 | 100 | 0 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-86.92-yellowgreen) | [Lihat Laporan](Evaluasi_10251068_MuhammadFajriIkhsan.md) |
-| 24 | **Muhammad Rasya Al Khalifi** | 10251071 | `MuhRasyaAlKhalifi` | 100 | 100 | 100 | 100 | 100 | 83 | 100 | 67 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-88.46-yellowgreen) | [Lihat Laporan](Evaluasi_10251071_MuhammadRasyaAlKhalifi.md) |
-| 25 | **Muhammad Rizqi Akbar** | 10251074 | `MuhammadRizqiAkbar33` | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 0 | 0 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-74.38-yellowgreen) | [Lihat Laporan](Evaluasi_10251074_MuhammadRizqiAkbar.md) |
-| 26 | **Muhammad Rizqi Hidayah** | 10251075 | `MuhammadRizqiHidayah` ⚠️ | 50 | 50 | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-89.77-yellowgreen) | [Lihat Laporan](Evaluasi_10251075_MuhammadRizqiHidayah.md) |
-| 27 | **Risna Andriani** | 10251077 | `RisnaAndriani-10251077` | 96 | 100 | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 33 | 100 | 67 | 0 | ![Score](https://img.shields.io/badge/Score-81.77-yellowgreen) | [Lihat Laporan](Evaluasi_10251077_RisnaAndriani.md) |
-| 28 | **Julian Zaky Saputra** | 10251080 | `Julian-Zaky-Saputra` | 100 | 100 | 100 | 100 | 100 | 83 | 50 | 67 | 100 | 100 | 0 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-84.62-yellowgreen) | [Lihat Laporan](Evaluasi_10251080_JulianZakySaputra.md) |
-| 29 | **Mosses Restu Nugroho** | 10251083 | `MossesRestuN` | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-97.46-success) | [Lihat Laporan](Evaluasi_10251083_MossesRestuNugroho.md) |
-| 30 | **Muhammad Ryan Eka Putra** | 10251089 | `10251089-Ryan` | 100 | 100 | 100 | 100 | 100 | 100 | 50 | 67 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-85.92-yellowgreen) | [Lihat Laporan](Evaluasi_10251089_Ryan.md) |
-| 31 | **Razi Abdullah** | 10251092 | `snowyy26` | 50 | 50 | 100 | 33 | 100 | 83 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-83.31-yellowgreen) | [Lihat Laporan](Evaluasi_Unknown_snowyy26.md) |
-| 32 | **Nur Hayyu Nurdin** | 10251095 | `NurHayyu-10251095` | 100 | 100 | 100 | 100 | 100 | 83 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-96.15-success) | [Lihat Laporan](Evaluasi_10251095_NurHayyuNurdin.md) |
-| 33 | **Chelsea Angelika Velayati** | 10251104 | `Chelsea-10251104` | 100 | 100 | 90 | 90 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-88.23-yellowgreen) | [Lihat Laporan](Evaluasi_10251104_ChelseaAngelikaVelayati.md) |
-| 34 | **Rifat Sutha Abdillah** | 10251107 | `RifatSuthaAbdillah` | 100 | 100 | 70 | 100 | 0 | 100 | 50 | 67 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-75.92-yellowgreen) | [Lihat Laporan](Evaluasi_10251107_RifatSuthaAbdillah.md) |
-| 35 | **Farel Noviansyah** | 10251110 | `10251110` | 96 | 100 | 95 | 85 | 100 | 83 | 50 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-93.00-success) | [Lihat Laporan](Evaluasi_10251110_FarelNoviansyah.md) |
-| 36 | **Andre Adi Ruhaya** | 10251114 | `Andre10251114` | 100 | 96 | 90 | 70 | 100 | 33 | 0 | 0 | 100 | 95 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-75.69-yellowgreen) | [Lihat Laporan](Evaluasi_10251114_AndreAdiRuhaya.md) |
-| 37 | **Muhammad Azriel Al Fadhil** | 10251117 | `azrilalfadhil-svg` | 100 | 100 | 95 | 85 | 100 | 33 | 50 | 100 | 90 | 100 | 100 | 100 | 83 | ![Score](https://img.shields.io/badge/Score-87.38-yellowgreen) | [Lihat Laporan](Evaluasi_10251117_MuhammadAzrielAlFadhil.md) |
+| No | Nama Lengkap | NIM | GitHub Username | M1 | M2 | M3 | M4 | M5 | M6 | M7 | M9 | M10 | M11 | M12 | M13 | M14 | M15 | Nilai Rata-rata | Detail Evaluasi |
+|---:|:---|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
+| 1 | **Rendy** | 10231081 | `NorEndGate` | 100 | 100 | 100 | 100 | 67 | 100 | 50 | 100 | 100 | 100 | 100 | 83 | 83 | 100 | ![Score](https://img.shields.io/badge/Score-91.64-success) | [Lihat Laporan](Evaluasi_10231081_NorEndGate.md) |
+| 2 | **Dina Gracella Apnel Lengkong** | 10251002 | `10251002` | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-95.29-success) | [Lihat Laporan](Evaluasi_10251002_DinaGracellaApnelLengkong.md) |
+| 3 | **Rifat Adlyjuliandra** | 10251005 | `rifatadlyjuliandra` | 100 | 100 | 60 | 100 | 100 | 100 | 0 | 67 | 0 | 100 | 0 | 67 | 0 | 0 | ![Score](https://img.shields.io/badge/Score-56.71-orange) | [Lihat Laporan](Evaluasi_10251005_rifatadlyjuliandra.md) |
+| 4 | **Nadya Az-Zahra** | 10251008 | `nadyaazzahra` | 100 | 100 | 67 | 67 | 97 | 77 | 100 | 100 | 100 | 0 | 0 | 67 | 0 | 0 | ![Score](https://img.shields.io/badge/Score-62.50-orange) | [Lihat Laporan](Evaluasi_10251008_NadyaAzZahra.md) |
+| 5 | **A. Suci Maharani P** | 10251011 | `Asuci-Maharani` | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 67 | 53 | 100 | 0 | 67 | 33 | 67 | ![Score](https://img.shields.io/badge/Score-77.64-yellowgreen) | [Lihat Laporan](Evaluasi_10251011_ASuciMaharani.md) |
+| 6 | **Zacky Ahmad Ardian** | 10251014 | `Zacky10251014` | 100 | 100 | 97 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 0 | 100 | 100 | 95 | ![Score](https://img.shields.io/badge/Score-89.93-yellowgreen) | [Lihat Laporan](Evaluasi_10251014_ZackyAhmadArdian.md) |
+| 7 | **Devi Gustiani** | 10251017 | `devigustiani` | 100 | 80 | 100 | 100 | 85 | 85 | 75 | 67 | 97 | 100 | 100 | 0 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-84.93-yellowgreen) | [Lihat Laporan](Evaluasi_10251017_DeviGustiani.md) |
+| 8 | **Dhevrant Zhelynov Malelo** | 10251020 | `Dhevrant` | 90 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-99.29-success) | [Lihat Laporan](Evaluasi_10251020_Dhevrant.md) |
+| 9 | **Arya Cahya Nugraha** | 10251023 | `AryaCahyaNugraha22` | 100 | 100 | 60 | 83 | 100 | 100 | 50 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-90.00-success) | [Lihat Laporan](Evaluasi_10251023_AryaCahyaNugraha.md) |
+| 10 | **Salsabila Yulianti Salim** | 10251026 | `Salsabilaayees` | 100 | 100 | 100 | 100 | 97 | 77 | 100 | 67 | 100 | 100 | 0 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-88.64-yellowgreen) | [Lihat Laporan](Evaluasi_10251026_Salsabila.md) |
+| 11 | **Silvester Jevon Amabel** | 10251029 | `SilvesterJevon` | 100 | 100 | 100 | 67 | 97 | 87 | 50 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-90.57-success) | [Lihat Laporan](Evaluasi_10251029_SilvesterJevon.md) |
+| 12 | **Firyal Farah Khulaidah** | 10251032 | `FiryalFarah` | 100 | 100 | 100 | 90 | 100 | 100 | 75 | 67 | 100 | 67 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-92.79-success) | [Lihat Laporan](Evaluasi_10251032_FiryalFarah.md) |
+| 13 | **Putri Nabila Safitri** | 10251035 | `10251035-Putri` | 100 | 100 | 100 | 100 | 97 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-97.43-success) | [Lihat Laporan](Evaluasi_10251035_PutriNabilaSafitri.md) |
+| 14 | **Ayudya Aisyah Mutiaradinna** | 10251038 | `10251038` | 100 | 100 | 100 | 80 | 97 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-96.00-success) | [Lihat Laporan](Evaluasi_10251038_Ayudya.md) |
+| 15 | **Muh. Asrul Syam** | 10251044 | `Asrul-6` | 100 | 100 | 100 | 100 | 100 | 100 | 50 | 67 | 100 | 100 | 67 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-84.57-yellowgreen) | [Lihat Laporan](Evaluasi_10251044_Asrul.md) |
+| 16 | **Nurul Syahira A** | 10251047 | `syahira10251047` | 100 | 100 | 100 | 80 | 100 | 100 | 75 | 83 | 100 | 100 | 67 | 100 | 0 | 67 | ![Score](https://img.shields.io/badge/Score-83.71-yellowgreen) | [Lihat Laporan](Evaluasi_10251047_Syahira.md) |
+| 17 | **Muhammad Zennin Feriatta Dzakwan** | 10251050 | `Zennin2511` | 100 | 100 | 90 | 90 | 100 | 87 | 100 | 67 | 100 | 0 | 100 | 100 | 0 | 100 | ![Score](https://img.shields.io/badge/Score-81.00-yellowgreen) | [Lihat Laporan](Evaluasi_10251050_Zennin.md) |
+| 18 | **Noel Natalian Somba** | 10251053 | `N3CH0` | 100 | 100 | 100 | 100 | 100 | 100 | 50 | 67 | 100 | 100 | 100 | 100 | 33 | 67 | ![Score](https://img.shields.io/badge/Score-86.93-yellowgreen) | [Lihat Laporan](Evaluasi_10251053_NoelNatalianSomba.md) |
+| 19 | **Syahrina Aliyyu Tunggadewi** | 10251056 | `SyahrinaAliyyuTunggadewi` | 100 | 100 | 100 | 90 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-92.14-success) | [Lihat Laporan](Evaluasi_10251056_SyahrinaAliyyuTunggadewi.md) |
+| 20 | **Taufiiqul Akmal** | 10251059 | `10251059-coder` | 100 | 100 | 100 | 100 | 100 | 0 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-85.71-yellowgreen) | [Lihat Laporan](Evaluasi_10251059_TaufiiqulAkmal.md) |
+| 21 | **Ananda Eurico Rhiva Rifqia Salim** | 10251062 | `AnandaEurico` | 100 | 100 | 100 | 80 | 100 | 87 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-95.29-success) | [Lihat Laporan](Evaluasi_10251062_AnandaEurico.md) |
+| 22 | **Bryan Abil Al-Fikri** | 10251065 | `Bryan1065` | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-97.64-success) | [Lihat Laporan](Evaluasi_10251065_BryanAbilAlFikri.md) |
+| 23 | **Muhammad Fajri Ikhsan** | 10251068 | `Fajri-ITK` | 100 | 100 | 100 | 100 | 93 | 70 | 100 | 67 | 100 | 100 | 0 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-87.86-yellowgreen) | [Lihat Laporan](Evaluasi_10251068_MuhammadFajriIkhsan.md) |
+| 24 | **Muhammad Rasya Al Khalifi** | 10251071 | `MuhRasyaAlKhalifi` | 100 | 100 | 100 | 100 | 100 | 83 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-96.43-success) | [Lihat Laporan](Evaluasi_10251071_MuhammadRasyaAlKhalifi.md) |
+| 25 | **Muhammad Rizqi Akbar** | 10251074 | `MuhammadRizqiAkbar33` | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 67 | 100 | 0 | 100 | ![Score](https://img.shields.io/badge/Score-88.14-yellowgreen) | [Lihat Laporan](Evaluasi_10251074_MuhammadRizqiAkbar.md) |
+| 26 | **Muhammad Rizqi Hidayah** | 10251075 | `MuhammadRizqiHidayah` ⚠️ | 50 | 50 | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-90.50-success) | [Lihat Laporan](Evaluasi_10251075_MuhammadRizqiHidayah.md) |
+| 27 | **Risna Andriani** | 10251077 | `RisnaAndriani-10251077` | 96 | 100 | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 67 | 0 | 0 | ![Score](https://img.shields.io/badge/Score-80.71-yellowgreen) | [Lihat Laporan](Evaluasi_10251077_RisnaAndriani.md) |
+| 28 | **Julian Zaky Saputra** | 10251080 | `Julian-Zaky-Saputra` | 100 | 100 | 100 | 100 | 100 | 83 | 50 | 67 | 100 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-85.71-yellowgreen) | [Lihat Laporan](Evaluasi_10251080_JulianZakySaputra.md) |
+| 29 | **Mosses Restu Nugroho** | 10251083 | `MossesRestuN` | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-97.64-success) | [Lihat Laporan](Evaluasi_10251083_MossesRestuNugroho.md) |
+| 30 | **Muhammad Ryan Eka Putra** | 10251089 | `10251089-Ryan` | 100 | 100 | 100 | 100 | 100 | 100 | 50 | 67 | 100 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-86.93-yellowgreen) | [Lihat Laporan](Evaluasi_10251089_Ryan.md) |
+| 31 | **Razi Abdullah** | 10251092 | `snowyy26` | 50 | 50 | 100 | 33 | 100 | 83 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 0 | ![Score](https://img.shields.io/badge/Score-77.36-yellowgreen) | [Lihat Laporan](Evaluasi_Unknown_snowyy26.md) |
+| 32 | **Nur Hayyu Nurdin** | 10251095 | `NurHayyu-10251095` | 100 | 100 | 100 | 100 | 100 | 83 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-96.43-success) | [Lihat Laporan](Evaluasi_10251095_NurHayyuNurdin.md) |
+| 33 | **Chelsea Angelika Velayati** | 10251104 | `Chelsea-10251104` | 100 | 100 | 90 | 90 | 100 | 100 | 100 | 67 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-96.21-success) | [Lihat Laporan](Evaluasi_10251104_ChelseaAngelikaVelayati.md) |
+| 34 | **Rifat Sutha Abdillah** | 10251107 | `RifatSuthaAbdillah` | 100 | 100 | 70 | 100 | 0 | 100 | 50 | 67 | 100 | 100 | 100 | 100 | 0 | 67 | ![Score](https://img.shields.io/badge/Score-75.29-yellowgreen) | [Lihat Laporan](Evaluasi_10251107_RifatSuthaAbdillah.md) |
+| 35 | **Farel Noviansyah** | 10251110 | `10251110` | 96 | 100 | 95 | 85 | 100 | 83 | 50 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-93.50-success) | [Lihat Laporan](Evaluasi_10251110_FarelNoviansyah.md) |
+| 36 | **Andre Adi Ruhaya** | 10251114 | `Andre10251114` | 100 | 96 | 90 | 70 | 100 | 33 | 0 | 0 | 100 | 95 | 100 | 100 | 100 | 100 | ![Score](https://img.shields.io/badge/Score-77.43-yellowgreen) | [Lihat Laporan](Evaluasi_10251114_AndreAdiRuhaya.md) |
+| 37 | **Muhammad Azriel Al Fadhil** | 10251117 | `azrilalfadhil-svg` | 100 | 100 | 95 | 85 | 100 | 33 | 50 | 100 | 90 | 100 | 100 | 100 | 83 | 100 | ![Score](https://img.shields.io/badge/Score-88.29-yellowgreen) | [Lihat Laporan](Evaluasi_10251117_MuhammadAzrielAlFadhil.md) |
 
 ---
 
@@ -106,5 +106,30 @@ Beberapa mahasiswa mendapatkan nilai khusus dikarenakan alasan berikut:
 48. **Rendy (10231081) & Muhammad Azriel Al Fadhil (10251117):** T1 implementasi sorting & benchmark berjalan benar, namun blok BAGIAN A (tabel observasi) dan BAGIAN B (5 pertanyaan analisis) tidak diisi — T1=50, M14=83.
 49. **Razi Abdullah (10251092):** File Tugas Terstruktur dinamai `Tugas Praktikum 14.1/2/3` (label keliru), namun isi & header file benar Tugas Terstruktur 14 — semua PASSED, M14=100 tanpa penalti.
 50. **Julian Zaky Saputra (10251080):** Nama file Tugas 1 salah ketik NIM (`10351080` bukan `10251080`), konten benar — tanpa penalti, M14=100.
+
+### Koreksi dari Feedback Mahasiswa (13 Juni 2026)
+> Sebagian modul sebelumnya ter-nilai 0 karena file belum ada saat evaluasi awal / baru di-push / variasi nama folder. Setelah `git pull` + evaluasi ulang satu per satu:
+
+51. **Pengumpulan Modul 14 baru terdeteksi (0→100):** Taufiiqul Akmal (10251059), Muhammad Rasya Al Khalifi (10251071), Muhammad Ryan Eka Putra (10251089), Ananda Eurico (10251062), Muh. Asrul Syam (10251044) — Tugas 14.1/2/3 lengkap, benchmark + analisis terisi, T2/T3 PASSED.
+52. **Chelsea Angelika Velayati (10251104):** Modul 14 yang sebelumnya kosong kini sudah berisi & PASSED semua → M14 0→100.
+53. **Bryan Abil Al-Fikri (10251065):** Modul 13 & 14 baru terdeteksi → M13 0→100, M14 0→100 (rata-rata 82.08→97.46).
+54. **Firyal Farah (10251032), Julian Zaky (10251080):** Modul 12 baru terdeteksi → M12 0→100.
+55. **Arya Cahya Nugraha (10251023):** Modul 12 & 13 baru terdeteksi → keduanya 0→100 (rata-rata 73.85→89.23).
+56. **Noel Natalian Somba (10251053):** Modul 11 & 12 baru terdeteksi → keduanya 0→100.
+57. **Muh. Asrul Syam (10251044):** Modul 10 & 14 baru terdeteksi → keduanya 0→100 (rata-rata 75.69→91.08).
+58. **Muhammad Rizqi Akbar (10251074):** Modul 11 & 12 baru terdeteksi → M11 0→100; M12 0→**67** (T1 `SyntaxError`, stray `"""` di akhir file).
+59. **Salsabila Yulianti Salim (10251026):** Modul 11 Tugas 3 (sebelumnya file kosong) kini berisi & PASSED → M11 67→100.
+60. **Risna Andriani (10251077):** Modul 11 Tugas 2 & 3 (sebelumnya terkendala jaringan, tidak ter-input) kini ada & PASSED → M11 33→100.
+61. **Remedial UTS baru terdeteksi (Soal1/2/3 PASSED → UTS cap 65):** Rifat Sutha Abdillah (10251107, asli 47→65), Muhammad Azriel Al Fadhil (10251117, asli 46→65), Andre Adi Ruhaya (10251114, asli 43→65).
+62. **Andre Adi Ruhaya (10251114) — M7 & M9 TETAP 0 (bukan masalah deteksi):** File M7 & M9 sudah dibaca sejak awal — M7 tidak ada PDF Tugas 1 & Tugas 2 hanya berisi class tanpa kode test; M9 T1/T2 class-only tanpa test, T3 `RecursionError`. Nilai tidak berubah; mahasiswa perlu melengkapi test/PDF.
+
+### Modul 15 (Trie, Tensor & Analisis Penerapan)
+63. **Tidak mengumpulkan Tugas Terstruktur Modul 15 (M15=0):** Rifat Adlyjuliandra (10251005), Nadya Az-Zahra (10251008), Muh. Asrul Syam (10251044), Syahrina Aliyyu Tunggadewi (10251056), Taufiiqul Akmal (10251059), Risna Andriani (10251077), Julian Zaky Saputra (10251080), Muhammad Ryan Eka Putra (10251089) — tidak ada folder/file Modul 15. Razi Abdullah (10251092) hanya mengumpulkan Praktikum 15.
+64. **A. Suci Maharani P (10251011):** T1 Trie `AssertionError: count_prefixes ban` (T1=0); T2 & T3 OK → M15=67.
+65. **Noel Natalian Somba (10251053):** T1 Trie `AssertionError: delete apple` (T1=0); T2 PASSED & T3 analisis terisi → M15=67.
+66. **Nurul Syahira A (10251047):** T1 & T2 PASSED; T3 Analisis Penerapan file kosong (0 baris) → T3=0, M15=67.
+67. **Rifat Sutha Abdillah (10251107):** T1 & T2 PASSED; T3 Analisis Penerapan file kosong (1 baris) → T3=0, M15=67.
+68. **Zacky Ahmad Ardian (10251014):** T1 Trie PASSED namun file **tanpa ekstensi `.py`** → penalti -15 (T1=85). T2 & T3 OK → M15=95.
+69. **Rendy (10231081):** Folder `minggu15_10231081_Rendy.py/`; T1/T2 PASSED, T3 analisis terisi lengkap → M15=100 (kali ini analisis diisi, berbeda dari M14).
 
 *Catatan: Repositori froshan48, ghost, dan rizzqiii telah dihapus dari daftar evaluasi karena tidak ditemukan data pengerjaan sama sekali.*

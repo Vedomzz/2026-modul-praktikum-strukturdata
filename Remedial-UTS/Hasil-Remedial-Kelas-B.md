@@ -32,9 +32,9 @@
 | 10251009 | **Taufiq Erik Herliansyah** | B | - | - | - | - | - | - | 24 | **24** | Belum submit remedial |
 | 10251012 | **Fransiskus Ezekiel Rama Apriliano** | C | 25 | 25 | 30 | 20 | 100 | **65** | 51 | **65** | Lengkap |
 | 10251015 | **Enjelin Hartini** | A | 25 | 25 | **0** | -15 | 35 | **35** | 44 | **44** | S3 suspect copy (vs Devan 0.98); README minim. UTS asli tetap |
-| 10251021 | **Alejandro Aprillio Bayu Aji** | B | - | - | - | - | - | - | 36 | **36** | Belum submit remedial |
+| 10251021 | **Alejandro Aprillio Bayu Aji** | B | 25 | 25 | 30 | 20 | 100 | **65** | 36 | **65** | Lengkap. Sebelumnya tak terdeteksi (folder terblokir path invalid `...`); Soal1/2/3 PASSED |
 | 10251027 | **Kurnia Latifiansyah** | C | 25 | 25 | 30 | 20 | 100 | **65** | 55 | **65** | Lengkap |
-| 10251036 | **Marine Fajar Sprinkler Taranda** | A | **0** | **0** | **0** | -15 | -15→0 | **0** | 57 | **57** | Semua soal SyntaxError (data dimasukkan di source code, bukan README). UTS asli tetap |
+| 10251036 | **Marine Fajar Sprinkler Taranda** | A | 25 | 25 | 30 | 20 | 100 | **65** | 57 | **65** | Logika S1/2/3 **BENAR** (semua PASSED setelah bypass). Kekurangan: teks identitas/jawaban teori ditempel mentah di source `.py` (bukan komentar/README) → SyntaxError saat dijalankan langsung. Dinilai utuh per kebijakan dosen |
 | 10251039 | **Muhammad Khoiry Rijal** | B | 25 | 25 | 30 | 20 | 100 | **65** | 52 | **65** | Lengkap |
 | 10251042 | **Heldawati Ilham** | C | - | - | - | - | - | - | 58 | **58** | Belum submit remedial |
 | 10251045 | **Irfan Kurniawan** | A | - | - | - | - | - | - | 45 | **45** | Belum submit (repo kosong) |
@@ -73,7 +73,7 @@ Berdasarkan similarity check token-based (threshold ≥ 0.85):
 ## Catatan Khusus — Error Fatal
 
 - **Firni (10231038) Soal 1**: `AttributeError: 'MyArray' object has no attribute '_size'` — bug attribute naming.
-- **Marine (10251036) seluruh soal**: SyntaxError karena data identitas (Nama/NIM/Tanggal) ditulis di source code tanpa string delimiter, harusnya di README atau dalam docstring `"""..."""`.
+- **Marine (10251036) seluruh soal**: Awalnya SyntaxError karena data identitas (Nama/NIM/Tanggal) + jawaban teori ditulis di source code tanpa string delimiter (harusnya di README atau docstring `"""..."""`). **Setelah teks di-bypass, ketiga Soal PASSED** — logika kode benar. Dinilai utuh (65) per kebijakan dosen; mahasiswa disarankan memindah teks ke docstring/README.
 - **Rizky (10251054) Soal 3**: `AttributeError: 'Toko' object has no attribute 'pending_count'` — method tidak ada.
 
 ## Catatan Khusus — File Tanpa Ekstensi .py (Penalti -15/soal)
@@ -88,7 +88,6 @@ Berdasarkan similarity check token-based (threshold ≥ 0.85):
 ## Catatan Khusus — README Minim/Tidak Ada
 
 - **Enjelin (10251015)**: README minim/tidak ada → penalti -15 dari total.
-- **Marine (10251036)**: README minim/tidak ada → penalti -15 dari total.
 - **Albin (10251069)**: README hanya 1.9KB (terlalu pendek) → penalti -15 dari total.
 
 ---
@@ -97,7 +96,9 @@ Berdasarkan similarity check token-based (threshold ≥ 0.85):
 
 | Kategori | Jumlah |
 |----------|------:|
-| Submit + skor remedial naik dari UTS asli (UTS final = 65) | 11 mhs |
-| Submit tapi UTS asli > skor remedial (UTS asli tetap) | 5 mhs (Firni, Enjelin, Marine, Shafwat, Albin) |
-| Belum submit (UTS asli tetap) | 9 mhs (Taufiq, Alejandro, Heldawati, Irfan, Ahdyar, Fernando, Nabil, Bagas, Gilang) |
+| Submit + skor remedial naik dari UTS asli (UTS final = 65) | 13 mhs |
+| Submit tapi UTS asli > skor remedial (UTS asli tetap) | 4 mhs (Firni, Enjelin, Shafwat, Albin) |
+| Belum submit (UTS asli tetap) | 8 mhs (Taufiq, Heldawati, Irfan, Ahdyar, Fernando, Nabil, Bagas, Gilang) |
 | **Total** | **25 mhs** |
+
+> **Update 13 Jun 2026 (feedback):** Alejandro (10251021) & Marine (10251036) sebelumnya tercatat belum/gagal — setelah pull ulang & bypass teks markdown di source, keduanya **lengkap & PASSED → UTS final 65**.

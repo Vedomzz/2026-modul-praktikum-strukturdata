@@ -221,7 +221,15 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 83.31**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Hanya mengumpulkan Praktikum 15 (bukan Tugas Terstruktur).
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 77.36**
 
 | Modul | Nilai | Keterangan |
 |-------|-------|------------|
@@ -238,4 +246,5 @@
 | Modul 12 | 100 | |
 | Modul 13 | 100 |
 | Modul 14 | 100 |
-| **Rata-rata** | **83.31** | |
+| Modul 15 | 0 |
+| **Rata-rata** | **77.36** | |

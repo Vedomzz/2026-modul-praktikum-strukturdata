@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M12 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 84.62→92.31.
+
 ## Data Mahasiswa
 - **Nama:** Julian Zaky Saputra
 - **NIM:** 10251080
@@ -199,7 +201,7 @@
 - **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 12: 0**
+**NILAI MODUL 12: 100**
 
 ---
 
@@ -239,7 +241,15 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 84.62**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Tidak ada folder/file Tugas Terstruktur Modul 15 di repositori.
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 85.71**
 
 | Modul | Nilai |
 |-------|-------|
@@ -253,9 +263,10 @@
 | Modul 9 | 67 |
 | Modul 10 | 100 |
 | Modul 11 | 100 |
-| Modul 12 | 0 |
+| Modul 12 | 100 |
 | Modul 13 | 100 |
 | Modul 14 | 100 |
-| **Rata-rata** | **84.62** |
+| Modul 15 | 0 |
+| **Rata-rata** | **85.71** |
 
 *Catatan: M7 T1 tidak dikumpulkan (tidak ada PDF). Modul 12 tidak dikumpulkan.*

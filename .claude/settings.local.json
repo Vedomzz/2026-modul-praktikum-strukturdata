@@ -294,7 +294,33 @@
       "Bash(PYTHONIOENCODING=utf-8 python \"strukturdata-a-Salsabilaayees/minggu11/tugas2_10251026_SALSABILA YULIANTI SALIM.py\")",
       "Bash(PYTHONIOENCODING=utf-8 python \"strukturdata-a-Salsabilaayees/minggu11/tugas3_10251026_SALSABILA YULIANTI SALIM.py\")",
       "Bash(PYTHONIOENCODING=utf-8 python \"strukturdata-a-Zennin2511/Minggu11/Tugas1_10251050.py\")",
-      "Bash(PYTHONIOENCODING=utf-8 python \"strukturdata-a-SyahrinaAliyyuTunggadewi/Minggu 11/Tugas2_10251056_Syahrina Aliyyu Tunggadewi.py\")"
+      "Bash(PYTHONIOENCODING=utf-8 python \"strukturdata-a-SyahrinaAliyyuTunggadewi/Minggu 11/Tugas2_10251056_Syahrina Aliyyu Tunggadewi.py\")",
+      "Bash(sed -n '/ATTENDANCE_OVERRIDE = {/,/^}/p' compute_final_grades.py)",
+      "Bash(sed -n '/KUIS_OVERRIDE = {/,/^}/p' compute_final_grades.py)",
+      "Bash(sed -n '/UTS_FINAL_OVERRIDE = {/,/^}/p' compute_final_grades.py)",
+      "Bash(cat)",
+      "Bash(PYTHONIOENCODING=utf-8 python /tmp/probe.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python probe_tmp.py)",
+      "Bash(rm -f probe_tmp.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python probe2.py)",
+      "Bash(rm -f probe2.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python compute_final_grades.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python pr.py)",
+      "Bash(PYTHONIOENCODING=utf-8 bash -c 'git -C strukturdata-a-submissions/strukturdata-a-Andre10251114 show \"origin/main:minggu7/Tugas2_10251114_Andre_Adi_Ruhaya.py\" | timeout 30 python - 2>&1 | tail -3')",
+      "Bash(awk -F'|' '{gsub\\(/ /,\"\",$2\\); printf \"%s %-30s Prak=%s Kuis=%s UTS=%s Hadir=%s => %s %s\\\\n\",$2,substr\\($4,1,28\\),$5,$6,$7,$9,$11,$12}')",
+      "Bash(PYTHONIOENCODING=utf-8 python _upd15.py)",
+      "Bash(export PYTHONIOENCODING=utf-8)",
+      "Bash(git -C strukturdata-b-10251039 show \"origin/main:Minggu 15/Tugas_15-1_10251105.py\")",
+      "Bash(git -C strukturdata-b-10251105-haikal show \"origin/main:Minggu 15/Tugas_15-1_10251105.py\")",
+      "Bash(git -C strukturdata-b-Binngian show \"origin/main:Minggu 15/tugas1_10251069_Albin Gian Aztafaiq.py\")",
+      "Bash(timeout 30 python -)",
+      "Bash(git -C strukturdata-b-Binngian show \"origin/main:Minggu 15/tugas2_10251069_Albin Gian Aztafaiq.py\")",
+      "Bash(git -C strukturdata-b-kurniala show \"origin/main:minggu15/Tugas3_10251027_KurniaLatifiansyah.py\")",
+      "Bash(git -C strukturdata-b-Rizi-54 ls-tree -r --name-only origin/main)",
+      "Bash(PYTHONIOENCODING=utf-8 python _upd15b.py)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
     ]
   }
 }

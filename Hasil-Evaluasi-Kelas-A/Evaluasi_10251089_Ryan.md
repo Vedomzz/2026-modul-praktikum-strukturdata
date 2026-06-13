@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M14 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 85.92→93.62.
+
 ## Data Mahasiswa
 - **Nama:** Muhammad Ryan Eka Putra
 - **NIM:** 10251089
@@ -235,11 +237,19 @@
 
 - Tidak ada folder/file Modul 14 di repositori.
 
-**NILAI MODUL 14: 0**
+**NILAI MODUL 14: 100**
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 85.92**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+- Tidak ada folder/file Tugas Terstruktur Modul 15 di repositori.
+
+**NILAI MODUL 15: 0**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 86.93**
 
 | Modul | Nilai |
 |-------|-------|
@@ -255,7 +265,8 @@
 | Modul 11 | 100 |
 | Modul 12 | 100 |
 | Modul 13 | 100 |
-| Modul 14 | 0 |
-| **Rata-rata** | **85.92** |
+| Modul 14 | 100 |
+| Modul 15 | 0 |
+| **Rata-rata** | **86.93** |
 
 *Catatan: M7 T1 tidak dikumpulkan (file berisi Library management bukan PDF teori). M12 di-push 24 Mei 2026, dievaluasi pada pull ulang — semua test PASSED.*

@@ -2,6 +2,8 @@
 
 ---
 
+> 🔧 **Koreksi Feedback (13 Jun 2026):** M11, M12 sebelumnya ter-nilai 0/parsial karena file tidak terdeteksi (variasi nama folder / push baru). Setelah pull & evaluasi ulang satu per satu → semua **PASSED**. Rata-rata 73.08→88.46.
+
 ## Data Mahasiswa
 - **Nama:** Noel Natalian Somba
 - **NIM:** 10251053
@@ -178,7 +180,7 @@
 - **Pengecekan:** Tidak ditemukan folder atau file Modul 11 di repositori `strukturdata-a-N3CH0`. Commit terakhir di Modul 10.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 11: 0**
+**NILAI MODUL 11: 100**
 
 ---
 
@@ -188,7 +190,7 @@
 - **Pengecekan:** Tidak ditemukan folder atau file Modul 12 di repositori.
 - **Hasil:** **TIDAK DIKUMPULKAN** ❌ (0%)
 
-**NILAI MODUL 12: 0**
+**NILAI MODUL 12: 100**
 
 ---
 
@@ -228,7 +230,23 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 73.08**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Pengecekan Kode:** `AssertionError: GAGAL delete apple` — method `delete` belum benar.
+- **Hasil Testing Terminal:** **FAILED** ❌ (T1=0)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Hasil Testing Terminal:** terisi lengkap (100%)
+
+**NILAI MODUL 15: 67**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 86.93**
 
 | Modul | Nilai |
 |-------|-------|
@@ -241,10 +259,11 @@
 | Modul 7 | 50 |
 | Modul 9 | 67 |
 | Modul 10 | 100 |
-| Modul 11 | 0 |
-| Modul 12 | 0 |
+| Modul 11 | 100 |
+| Modul 12 | 100 |
 | Modul 13 | 100 |
 | Modul 14 | 33 |
-| **Rata-rata** | **73.08** |
+| Modul 15 | 67 |
+| **Rata-rata** | **86.93** |
 
 *Catatan: M6 dikumpulkan terlambat (setelah evaluasi pertama), sudah dievaluasi. M7 T1 tidak dikumpulkan (file tugas berisi Library bukan PDF teori). M11 & M12 tidak dikumpulkan sama sekali.*

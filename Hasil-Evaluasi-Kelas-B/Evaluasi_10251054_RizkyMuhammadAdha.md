@@ -198,7 +198,23 @@
 
 ---
 
-### **NILAI RATA-RATA (Modul 1-7, 9-14): 65.93**
+## Hasil Evaluasi Modul 15: Trie, Tensor & Analisis Penerapan
+
+### 1. Tugas 1: Implementasi Trie dengan Autocomplete
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 2. Tugas 2: Operasi Tensor Sederhana
+- **Hasil Testing Terminal:** **PASSED** (100%)
+
+### 3. Tugas 3: Analisis Penerapan Struktur Data
+- **Pengecekan Kode:** Jawaban terisi (124 baris), namun file **tanpa ekstensi `.py`** → penalti -15 (T3=85).
+- **Hasil Testing Terminal:** terisi (85%)
+
+**NILAI MODUL 15: 95**
+
+---
+
+### **NILAI RATA-RATA (Modul 1-7, 9-15): 68.00**
 
 | Modul | Nilai |
 |-------|-------|
@@ -215,7 +231,8 @@
 | Modul 12 | 0 |
 | Modul 13 | 0 |
 | Modul 14 | 0 |
-| **Rata-rata** | **65.93** |
+| Modul 15 | 95 |
+| **Rata-rata** | **68.00** |
 
 *Catatan: Modul 12 tidak dikumpulkan.*
 
