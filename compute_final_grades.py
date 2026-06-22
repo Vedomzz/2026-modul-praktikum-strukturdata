@@ -42,6 +42,29 @@ BOBOT = {
 }
 
 
+# Grade floor (kebijakan nilai dosen): naikkan nilai akhir minimal ke nilai tsb
+# agar huruf naik. A=86 (85->A), C=51 (D->C lulus), D=41 (E ada nilai->D).
+# Mhs nonaktif/resign/kosong TIDAK di-floor.
+GRADE_FLOOR = {
+    'A': {
+        10251083: 86, 10251095: 86,   # Mosses & Nur Hayyu: 85 -> 86 (AB -> A)
+        10251026: 93,                  # Salsabila -> 93
+        10251080: 80,                  # Julian Zaky -> 80
+        10251011: 76, 10251017: 76,    # Suci & Devi -> minimal 76 (AB)
+    },
+    'B': {
+        10251042: 51, 10251051: 51, 10251075: 51,   # D -> C (minimal lulus)
+        10251009: 41, 10251045: 41, 10251093: 41, 10251081: 41,  # E (ada nilai) -> D
+        10251018: 86,                  # Faiz -> minimal 86 (A)
+        10251006: 82, 10251033: 82, 10251072: 82,   # Farid, Ilham, Reihan Agil -> 82
+        10251084: 80,                  # Sultan -> 80
+        10251012: 76, 10251027: 76, 10251115: 76,   # Fransiskus, Kurnia, Jonatan -> minimal 76 (AB)
+        10251102: 56,                  # Devan -> minimal 56 (BC)
+        # Tetap E (nonaktif/resign/kosong): Ari, Anisa, Gilang(10251096) + Gusti/Panji/Fawwaz (kelas A)
+    },
+}
+
+
 def letter_grade(score):
     if score is None:
         return '-'
@@ -423,11 +446,26 @@ UAS_ASLI_B = {
 }
 
 # UAS FINAL setelah remedial UAS. Formula: UAS_final = MAX(UAS_asli, MIN(UAS_remedial, 65))
-# KOSONG sampai remedial UAS dinilai (deadline submit Jumat, 19 Juni 2026 14.00 WITA).
-# Isi hanya mhs yang skornya NAIK karena remedial; sisanya otomatis pakai UAS asli.
+# Hanya mhs yang skornya NAIK karena remedial; sisanya otomatis pakai UAS asli.
+# Diisi dari Hasil-Remedial-Kelas-A/B.md (dinilai 22 Jun 2026).
 UAS_FINAL_OVERRIDE = {
-    'A': {},
-    'B': {},
+    'A': {
+        10231081: 65, 10251002: 65, 10251005: 50, 10251008: 65, 10251011: 65,
+        10251014: 65, 10251017: 65, 10251020: 60, 10251029: 65, 10251032: 65,
+        10251035: 65, 10251038: 65, 10251047: 65, 10251050: 65, 10251053: 65,
+        10251056: 65, 10251059: 65, 10251068: 65, 10251071: 65, 10251074: 65,
+        10251077: 65, 10251080: 65, 10251089: 65, 10251104: 65, 10251107: 65,
+        10251110: 65, 10251114: 65, 10251117: 65,
+        # Rifat Adly (10251005)->50: S3 sorted() & README minim. Dhevrant (10251020)->60: S1 error & S3 copy.
+    },
+    'B': {
+        10231001: 65, 10231038: 65, 10251006: 65, 10251012: 65, 10251015: 65,
+        10251039: 65, 10251048: 65, 10251051: 65, 10251054: 65, 10251060: 65,
+        10251066: 65, 10251069: 65, 10251075: 65, 10251078: 65, 10251084: 65,
+        10251087: 65, 10251099: 65, 10251102: 65, 10251105: 65, 10251108: 65,
+        10251112: 65, 10251115: 65,
+        # Heldawati (10251042) tidak naik (remedial 20 < asli 42) → tetap pakai asli.
+    },
 }
 
 
@@ -497,6 +535,11 @@ def generate_markdown(kelas, praktikum_map, username_map, order_list, excel_data
     lines.append("> **Konversi huruf** (batas bawah inklusif): A >= 86, AB 76-86, B 66-76, "
                  "BC 56-66, C 51-56, D 41-51, E < 41.")
     lines.append("")
+    if GRADE_FLOOR.get(kelas):
+        lines.append("> **Kebijakan nilai (⬆):** sebagian nilai di-floor agar huruf naik "
+                     "(85→A; D→C minimal lulus; E yang masih ada nilai komponen→D). Mahasiswa "
+                     "nonaktif/resign/tanpa data **tidak** di-floor (tetap E).")
+        lines.append("")
     lines.append("---")
     lines.append("")
     lines.append("## Rekapitulasi Nilai")
@@ -521,10 +564,17 @@ def generate_markdown(kelas, praktikum_map, username_map, order_list, excel_data
         username = username_map.get(nim, '')
 
         nilai = compute_nilai_akhir(prak, kuis, uts, uas, hadir)
+        floor = GRADE_FLOOR.get(kelas, {}).get(nim)
+        floored = False
+        if floor is not None and nilai is not None and nilai < floor:
+            nilai = float(floor)
+            floored = True
         grade = letter_grade(nilai)
 
         eval_file = find_evaluation_file(kelas, nim, username)
         detail = f"[Lihat]({eval_file})" if eval_file else "-"
+        if floored:
+            detail = ("⬆ kebijakan nilai; " + detail) if eval_file else "⬆ kebijakan nilai"
 
         lines.append(
             f"| {idx} | {nim} | **{nama}** | {fmt(prak)} | {fmt(kuis)} | {fmt(uts)} | {fmt(uas)} | "

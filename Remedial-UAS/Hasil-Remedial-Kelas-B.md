@@ -1,83 +1,75 @@
 # Hasil Remedial UAS Praktikum Struktur Data (Kelas B)
 
-> **Cakupan:** 34 mahasiswa terdaftar remedial (UAS asli < 66).
 > **Materi:** Modul 9-15 (Tree/BST, Graph, Searching, Sorting).
-> **Cap nilai remedial:** 65.
-> **Formula UAS final:** `UAS_final = MAX(UAS_asli, MIN(UAS_remedial, 65))`.
-> **Deadline submit:** Jumat, 19 Juni 2026 pukul 14.00 WITA.
+> **Cap nilai remedial:** 65. **Formula:** `UAS_final = MAX(UAS_asli, MIN(UAS_remedial, 65))`.
+> **Deadline:** Jumat, 19 Juni 2026 14.00 WITA (sudah lewat — dinilai 22 Jun).
 
 ---
 
-## Rubrik & Penalti yang Diterapkan
+## Rubrik & Penalti
 
-| Komponen | Bobot | Penjelasan |
-|----------|------:|------------|
-| Soal 1 (BST) | 25 | PASSED penuh |
-| Soal 2 (Graph BFS/DFS) | 25 | PASSED penuh |
-| Soal 3 (Sorting manual + Binary Search) | 30 | PASSED penuh |
-| README | 20 | Lengkap (identitas + analisis Big-O + jawaban teori) |
+| Komponen | Bobot |
+|----------|------:|
+| Soal 1 (BST) | 25 |
+| Soal 2 (Graph BFS/DFS) | 25 |
+| Soal 3 (Sorting manual + Binary Search) | 30 |
+| README (identitas + Big-O + teori) | 20 |
 
 **Penalti diterapkan:**
-- File **error fatal** (SyntaxError/IndentError/NameError) yang tidak bisa eksekusi: soal terkait dapat **0**.
-- File **MISSING / not submitted**: soal terkait dapat **0**.
-- **Soal 3 pakai `sorted()`/`list.sort()` bawaan** (bukan sort manual): **-50%** Soal 3.
-- README **minim/tanpa Big-O**: **-15** dari nilai total.
-- **Suspect copy** (similarity AST >= 0.85) antar mahasiswa di set sama: soal terkait dapat **0** untuk **kedua belah pihak**.
+- Error fatal (Syntax/Indent/Runtime) / konten salah / tanpa test: soal terkait **0**.
+- Soal 3 pakai `sorted()`/`list.sort()` bawaan: **-50%** Soal 3.
+- README minim/tanpa Big-O atau tidak ada: **-15**.
+- **Suspect copy** (similarity implementasi **> 0.90**): soal terkait **-50%** (kebijakan: dikurangi, tidak 0).
+- Salah set (kerjakan set lain dari yang ditugaskan): **-15%**.
 
 ---
 
 ## Rekapitulasi Hasil Per Mahasiswa
 
-> Status awal: **BELUM DINILAI** -- kolom skor diisi setelah submission masuk.
-> UAS Final default = UAS Asli (akan naik bila skor remedial > UAS asli, maks 65).
-
 | NIM | Nama | Set | S1 | S2 | S3 | README | Skor Mentah | Cap 65 | UAS Asli | UAS Final | Catatan |
 |---|---|:---:|:---:|:---:|:---:|:---:|---:|---:|---:|---:|---|
-| 10231001 | **Achmad Bayhaqi** | A | - | - | - | - | - | - | 50 | **50** | Belum submit remedial |
-| 10231038 | **Firni Fauziah Ramadhini** | B | - | - | - | - | - | - | 40 | **40** | Belum submit remedial |
-| 10251006 | **Muhammad Farid Kusuma Admaja** | A | - | - | - | - | - | - | 42 | **42** | Belum submit remedial |
-| 10251009 | **Taufiq Erik Herliansyah** | C | - | - | - | - | - | - | 20 | **20** | Belum submit remedial |
-| 10251012 | **Fransiskus Ezekiel Rama Apriliano** | A | - | - | - | - | - | - | 56 | **56** | Belum submit remedial |
-| 10251015 | **Enjelin Hartini** | B | - | - | - | - | - | - | 29 | **29** | Belum submit remedial |
-| 10251021 | **Alejandro Aprillio Bayu Aji** | C | - | - | - | - | - | - | 42 | **42** | Belum submit remedial |
+| 10231001 | **Achmad Bayhaqi** | A | 25 | 25 | 30 | 20 | 100 | 65 | 50 | **65** | Lengkap — semua PASSED |
+| 10251006 | **Muhammad Farid Kusuma Admaja** | A | 25 | 25 | 30 | 20 | 100 | 65 | 42 | **65** | Lengkap — semua PASSED |
+| 10251012 | **Fransiskus Ezekiel Rama Apriliano** | A | 25 | 25 | 30 | 20 | 100 | 65 | 56 | **65** | Lengkap — semua PASSED |
 | 10251027 | **Kurnia Latifiansyah** | A | - | - | - | - | - | - | 55 | **55** | Belum submit remedial |
+| 10251042 | **Heldawati Ilham** | A | 0 | 0 | 0 | 20 | 20 | 20 | 42 | **42** | S1/S2/S3 IndentationError — file tidak bisa dieksekusi |
+| 10251051 | **Ahdyar Ramadhan** | A | 25 | 25 | 30 | 20 | 100 | 65 | 37 | **65** | Lengkap — semua PASSED |
+| 10251060 | **Nastain Masyal Sadani** | A | 25 | 25 | 30 | 20 | 100 | 65 | 52 | **65** | Lengkap — semua PASSED |
+| 10251066 | **Noel Randi Pakpahan** | A | 0 | 25 | 30 | 20 | 75 | 65 | 39 | **65** | S1 konten UTS (Inventory) & tanpa test → 0 |
+| 10251081 | **Fernando Frederik Lowing** | A | - | - | - | - | - | - | 0 | **0** | Belum submit remedial |
+| 10251084 | **Sultan Zahid** | A | 25 | 25 | 30 | 20 | 100 | 65 | 36 | **65** | Lengkap — semua PASSED |
+| 10251096 | **Gilang Artha Wijaya** | A | - | - | - | - | - | - | 0 | **0** | Belum submit remedial |
+| 10251108 | **Kevin Maulana Pratama** | A | 25 | 25 | 30 | 20 | 100 | 65 | 22 | **65** | Lengkap — semua PASSED |
+| 10231038 | **Firni Fauziah Ramadhini** | B | 25 | 25 | 30 | 20 | 100 | 65 | 40 | **65** | Lengkap — semua PASSED |
+| 10251015 | **Enjelin Hartini** | B | 25 | 25 | 30 | 20 | 100 | 65 | 29 | **65** | Lengkap — semua PASSED |
 | 10251036 | **Marine Fajar Sprinkler Taranda** | B | - | - | - | - | - | - | 32 | **32** | Belum submit remedial |
-| 10251039 | **Muhammad Khoiry Rijal** | C | - | - | - | - | - | - | 37 | **37** | Belum submit remedial |
-| 10251042 | **Heldawati Ilham** | A | - | - | - | - | - | - | 42 | **42** | Belum submit remedial |
 | 10251045 | **Irfan Kurniawan** | B | - | - | - | - | - | - | 20 | **20** | Belum submit remedial |
-| 10251048 | **Dewi 'Husna Butsainah Nuhsabila** | C | - | - | - | - | - | - | 61 | **61** | Belum submit remedial |
-| 10251051 | **Ahdyar Ramadhan** | A | - | - | - | - | - | - | 37 | **37** | Belum submit remedial |
-| 10251054 | **Rizky Muhammad Adha** | B | - | - | - | - | - | - | 24 | **24** | Belum submit remedial |
-| 10251057 | **Shafwat Azzah Hirfazanisa Latimojong** | C | - | - | - | - | - | - | 50 | **50** | Belum submit remedial |
-| 10251060 | **Nastain Masyal Sadani** | A | - | - | - | - | - | - | 52 | **52** | Belum submit remedial |
+| 10251054 | **Rizky Muhammad Adha** | B | 25 | 25 | 30 | 20 | 100 | 65 | 24 | **65** | Lengkap — semua PASSED |
 | 10251063 | **Muhammad Hanif Murtadho** | B | - | - | - | - | - | - | 52 | **52** | Belum submit remedial |
-| 10251066 | **Noel Randi Pakpahan** | A | - | - | - | - | - | - | 39 | **39** | Belum submit remedial |
-| 10251069 | **Albin Gian Aztafaiq** | B | - | - | - | - | - | - | 12 | **12** | Belum submit remedial |
+| 10251069 | **Albin Gian Aztafaiq** | B | 25 | 25 | 30 | 20 | 100 | 65 | 12 | **65** | Lengkap — semua PASSED |
 | 10251072 | **Reihan Agil Wijaya** | B | - | - | - | - | - | - | 63 | **63** | Belum submit remedial |
-| 10251075 | **Katon Hillal Alwan Saputra** | C | - | - | - | - | - | - | 22 | **22** | Belum submit remedial |
-| 10251078 | **Naafi' Annisa Nugrahantiningdyah** | C | - | - | - | - | - | - | 58 | **58** | Belum submit remedial |
-| 10251081 | **Fernando Frederik Lowing** | A | - | - | - | - | - | - | 0 | **0** | Tidak hadir UAS (asli 0); belum submit remedial |
-| 10251084 | **Sultan Zahid** | A | - | - | - | - | - | - | 36 | **36** | Belum submit remedial |
-| 10251087 | **Muhammad Nabil Fadhilla** | B | - | - | - | - | - | - | 46 | **46** | Belum submit remedial |
+| 10251087 | **Muhammad Nabil Fadhilla** | B | 25 | 25 | 30 | 20 | 100 | 65 | 46 | **65** | Lengkap — semua PASSED |
+| 10251102 | **Muhammad Devan Abbiyu Dzaki Laksmana** | B | 25 | 25 | 30 | 20 | 100 | 65 | 32 | **65** | Lengkap — semua PASSED |
+| 10251112 | **Cindy Callista Beatrice Sigalingging** | B | 25 | 25 | 30 | 20 | 100 | 65 | 54 | **65** | Lengkap — semua PASSED |
+| 10251009 | **Taufiq Erik Herliansyah** | C | - | - | - | - | - | - | 20 | **20** | Belum submit remedial |
+| 10251021 | **Alejandro Aprillio Bayu Aji** | C | - | - | - | - | - | - | 42 | **42** | Belum submit remedial |
+| 10251039 | **Muhammad Khoiry Rijal** | C | 25 | 25 | 30 | 20 | 100 | 65 | 37 | **65** | Lengkap — semua PASSED |
+| 10251048 | **Dewi 'Husna Butsainah Nuhsabila** | C | 25 | 25 | 15 | 20 | 85 | 65 | 61 | **65** | S3 suspect-copy 0.91 vs Risna → -50% |
+| 10251057 | **Shafwat Azzah Hirfazanisa Latimojong** | C | - | - | - | - | - | - | 50 | **50** | Belum submit remedial |
+| 10251075 | **Katon Hillal Alwan Saputra** | C | 25 | 25 | 30 | 20 | 100 | 65 | 22 | **65** | Lengkap — semua PASSED |
+| 10251078 | **Naafi' Annisa Nugrahantiningdyah** | C | 25 | 25 | 30 | 20 | 100 | 65 | 58 | **65** | Lengkap — semua PASSED |
 | 10251093 | **Bagas Abdullah** | C | - | - | - | - | - | - | 12 | **12** | Belum submit remedial |
-| 10251096 | **Gilang Artha Wijaya** | A | - | - | - | - | - | - | 0 | **0** | Tidak hadir UAS (asli 0); belum submit remedial |
-| 10251099 | **Raihan Pramudya** | C | - | - | - | - | - | - | 54 | **54** | Belum submit remedial |
-| 10251102 | **Muhammad Devan Abbiyu Dzaki Laksmana** | B | - | - | - | - | - | - | 32 | **32** | Belum submit remedial |
-| 10251105 | **Muhammad Haikal El Pasha** | C | - | - | - | - | - | - | 16 | **16** | Belum submit remedial |
-| 10251108 | **Kevin Maulana Pratama** | A | - | - | - | - | - | - | 22 | **22** | Belum submit remedial |
-| 10251112 | **Cindy Callista Beatrice Sigalingging** | B | - | - | - | - | - | - | 54 | **54** | Belum submit remedial |
-| 10251115 | **Jonatan Bagus Kristiawan** | C | - | - | - | - | - | - | 38 | **38** | Belum submit remedial |
+| 10251099 | **Raihan Pramudya** | C | 25 | 25 | 30 | 20 | 100 | 65 | 54 | **65** | Lengkap — semua PASSED |
+| 10251105 | **Muhammad Haikal El Pasha** | C | 25 | 25 | 30 | 20 | 100 | 65 | 16 | **65** | Lengkap — semua PASSED |
+| 10251115 | **Jonatan Bagus Kristiawan** | C | 25 | 25 | 30 | 20 | 100 | 65 | 38 | **65** | Lengkap — semua PASSED |
 
 ---
 
-## Ringkasan Statistik
+## Ringkasan
 
 | Kategori | Jumlah |
 |----------|------:|
-| Total terdaftar remedial | 34 mhs |
-| Sudah submit & dinilai | 0 mhs (update saat penilaian) |
-| Belum submit (UAS asli tetap) | 34 mhs |
-
----
-
-*Template hasil ini mengikuti format Remedial-UTS. Isi kolom S1/S2/S3/README, Skor Mentah, Cap 65, dan UAS Final saat penilaian submission dilakukan.*
+| Submit & nilai naik | 22 |
+| Submit tapi UAS asli >= remedial (asli dipakai) | 1 |
+| Belum submit (UAS asli tetap) | 11 |
+| **Total terdaftar** | **34** |
